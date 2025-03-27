@@ -1,0 +1,1 @@
+/home/student/ros2_ws/build/part5_actions/ament_cmake_environment_hooks/local_setup.bash

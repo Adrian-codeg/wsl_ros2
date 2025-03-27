@@ -1,0 +1,84 @@
+[0.018s] Invoking command in '/home/student/ros2_ws/build/part1_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/student/ros2_ws/src/part1_pubsub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/install/part1_pubsub
+[0.236s] -- The C compiler identification is GNU 11.4.0
+[0.611s] -- The CXX compiler identification is GNU 11.4.0
+[0.841s] -- Detecting C compiler ABI info
+[0.962s] -- Detecting C compiler ABI info - done
+[0.967s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.967s] -- Detecting C compile features
+[0.968s] -- Detecting C compile features - done
+[0.971s] -- Detecting CXX compiler ABI info
+[1.086s] -- Detecting CXX compiler ABI info - done
+[1.090s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.090s] -- Detecting CXX compile features
+[1.091s] -- Detecting CXX compile features - done
+[1.107s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.211s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.262s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.302s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[1.444s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.452s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.463s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.482s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.502s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.553s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.557s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.391s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.225s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.745s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.764s] -- Looking for pthread.h
+[4.861s] -- Looking for pthread.h - found
+[4.862s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.963s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.963s] -- Found Threads: TRUE  
+[5.013s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[5.108s] -- Configuring done
+[5.119s] -- Generating done
+[5.121s] -- Build files have been written to: /home/student/ros2_ws/build/part1_pubsub
+[5.130s] Invoked command in '/home/student/ros2_ws/build/part1_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/student/ros2_ws/src/part1_pubsub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/install/part1_pubsub
+[5.131s] Invoking command in '/home/student/ros2_ws/build/part1_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/part1_pubsub -- -j16 -l16
+[5.164s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_executable.dir/src/minimal_node.cpp.o[0m
+[5.170s] [ 50%] Built target ament_cmake_python_symlink_part1_pubsub_modules
+[5.312s] running egg_info
+[5.312s] creating part1_pubsub_modules.egg-info
+[5.312s] writing part1_pubsub_modules.egg-info/PKG-INFO
+[5.312s] writing dependency_links to part1_pubsub_modules.egg-info/dependency_links.txt
+[5.312s] writing top-level names to part1_pubsub_modules.egg-info/top_level.txt
+[5.313s] writing manifest file 'part1_pubsub_modules.egg-info/SOURCES.txt'
+[5.314s] reading manifest file 'part1_pubsub_modules.egg-info/SOURCES.txt'
+[5.315s] writing manifest file 'part1_pubsub_modules.egg-info/SOURCES.txt'
+[5.338s] [ 50%] Built target ament_cmake_python_build_part1_pubsub_modules_egg
+[7.437s] [100%] [32m[1mLinking CXX executable cpp_executable[0m
+[7.575s] [100%] Built target cpp_executable
+[7.584s] Invoked command in '/home/student/ros2_ws/build/part1_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/part1_pubsub -- -j16 -l16
+[7.592s] Invoking command in '/home/student/ros2_ws/build/part1_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/part1_pubsub
+[7.597s] -- Install configuration: ""
+[7.598s] -- Execute custom install script
+[7.598s] -- Symlinking: /home/student/ros2_ws/install/part1_pubsub/lib/part1_pubsub/cpp_executable
+[7.605s] -- Symlinking: /home/student/ros2_ws/install/part1_pubsub/share/part1_pubsub/environment/pythonpath.sh
+[7.612s] -- Symlinking: /home/student/ros2_ws/install/part1_pubsub/share/part1_pubsub/environment/pythonpath.dsv
+[7.620s] -- Symlinking: /home/student/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages/part1_pubsub_modules-0.0.0-py3.10.egg-info/PKG-INFO
+[7.628s] -- Symlinking: /home/student/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages/part1_pubsub_modules-0.0.0-py3.10.egg-info/SOURCES.txt
+[7.635s] -- Symlinking: /home/student/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages/part1_pubsub_modules-0.0.0-py3.10.egg-info/dependency_links.txt
+[7.641s] -- Symlinking: /home/student/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages/part1_pubsub_modules-0.0.0-py3.10.egg-info/top_level.txt
+[7.648s] -- Symlinking: /home/student/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages/part1_pubsub_modules/__init__.py
+[7.654s] -- Symlinking: /home/student/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages/part1_pubsub_modules/tb3_tools.py
+[7.661s] -- Symlinking: /home/student/ros2_ws/install/part1_pubsub/lib/part1_pubsub/minimal_node.py
+[7.668s] -- Symlinking: /home/student/ros2_ws/install/part1_pubsub/share/ament_index/resource_index/package_run_dependencies/part1_pubsub
+[7.675s] -- Symlinking: /home/student/ros2_ws/install/part1_pubsub/share/ament_index/resource_index/parent_prefix_path/part1_pubsub
+[7.681s] -- Symlinking: /home/student/ros2_ws/install/part1_pubsub/share/part1_pubsub/environment/ament_prefix_path.sh
+[7.687s] -- Symlinking: /home/student/ros2_ws/install/part1_pubsub/share/part1_pubsub/environment/ament_prefix_path.dsv
+[7.693s] -- Symlinking: /home/student/ros2_ws/install/part1_pubsub/share/part1_pubsub/environment/path.sh
+[7.698s] -- Symlinking: /home/student/ros2_ws/install/part1_pubsub/share/part1_pubsub/environment/path.dsv
+[7.705s] -- Symlinking: /home/student/ros2_ws/install/part1_pubsub/share/part1_pubsub/local_setup.bash
+[7.711s] -- Symlinking: /home/student/ros2_ws/install/part1_pubsub/share/part1_pubsub/local_setup.sh
+[7.717s] -- Symlinking: /home/student/ros2_ws/install/part1_pubsub/share/part1_pubsub/local_setup.zsh
+[7.724s] -- Symlinking: /home/student/ros2_ws/install/part1_pubsub/share/part1_pubsub/local_setup.dsv
+[7.732s] -- Symlinking: /home/student/ros2_ws/install/part1_pubsub/share/part1_pubsub/package.dsv
+[7.739s] -- Symlinking: /home/student/ros2_ws/install/part1_pubsub/share/ament_index/resource_index/packages/part1_pubsub
+[7.745s] -- Symlinking: /home/student/ros2_ws/install/part1_pubsub/share/part1_pubsub/cmake/part1_pubsubConfig.cmake
+[7.751s] -- Symlinking: /home/student/ros2_ws/install/part1_pubsub/share/part1_pubsub/cmake/part1_pubsubConfig-version.cmake
+[7.756s] -- Symlinking: /home/student/ros2_ws/install/part1_pubsub/share/part1_pubsub/package.xml
+[7.784s] Listing '/home/student/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages/part1_pubsub_modules'...
+[7.784s] Compiling '/home/student/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages/part1_pubsub_modules/__init__.py'...
+[7.784s] Compiling '/home/student/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages/part1_pubsub_modules/tb3_tools.py'...
+[7.788s] Invoked command in '/home/student/ros2_ws/build/part1_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/part1_pubsub

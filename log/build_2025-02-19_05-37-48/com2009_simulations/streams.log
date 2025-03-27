@@ -1,0 +1,86 @@
+[0.079s] Invoking command in '/home/student/ros2_ws/build/com2009_simulations': AMENT_PREFIX_PATH=/home/student/ros2_ws/install/tuos_simulations:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/tuos_simulations:/opt/ros/humble /usr/bin/cmake /home/student/ros2_ws/src/tuos_ros/com2009_simulations -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/install/com2009_simulations
+[0.305s] -- The C compiler identification is GNU 11.4.0
+[1.187s] -- The CXX compiler identification is GNU 11.4.0
+[1.790s] -- Detecting C compiler ABI info
+[2.036s] -- Detecting C compiler ABI info - done
+[2.046s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.047s] -- Detecting C compile features
+[2.048s] -- Detecting C compile features - done
+[2.051s] -- Detecting CXX compiler ABI info
+[2.278s] -- Detecting CXX compiler ABI info - done
+[2.287s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.288s] -- Detecting CXX compile features
+[2.289s] -- Detecting CXX compile features - done
+[2.294s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.496s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.628s] -- Found gazebo_ros_pkgs: 3.9.0 (/opt/ros/humble/share/gazebo_ros_pkgs/cmake)
+[2.630s] -- Found turtlebot3_gazebo: 2.2.5 (/opt/ros/humble/share/turtlebot3_gazebo/cmake)
+[2.875s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.884s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.897s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.921s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.947s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.095s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.100s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.180s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.330s] -- Found FastRTPS: /opt/ros/humble/include  
+[11.291s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[11.302s] -- Looking for pthread.h
+[11.535s] -- Looking for pthread.h - found
+[11.535s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[11.751s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[11.752s] -- Found Threads: TRUE  
+[11.846s] -- Found tuos_simulations: 0.0.1 (/home/student/ros2_ws/install/tuos_simulations/share/tuos_simulations/cmake)
+[11.920s] -- Configuring done
+[11.929s] -- Generating done
+[11.932s] -- Build files have been written to: /home/student/ros2_ws/build/com2009_simulations
+[11.944s] Invoked command in '/home/student/ros2_ws/build/com2009_simulations' returned '0': AMENT_PREFIX_PATH=/home/student/ros2_ws/install/tuos_simulations:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/tuos_simulations:/opt/ros/humble /usr/bin/cmake /home/student/ros2_ws/src/tuos_ros/com2009_simulations -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/install/com2009_simulations
+[11.947s] Invoking command in '/home/student/ros2_ws/build/com2009_simulations': AMENT_PREFIX_PATH=/home/student/ros2_ws/install/tuos_simulations:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/tuos_simulations:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/com2009_simulations -- -j16 -l16
+[11.999s] Invoked command in '/home/student/ros2_ws/build/com2009_simulations' returned '0': AMENT_PREFIX_PATH=/home/student/ros2_ws/install/tuos_simulations:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/tuos_simulations:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/com2009_simulations -- -j16 -l16
+[12.001s] Invoking command in '/home/student/ros2_ws/build/com2009_simulations': AMENT_PREFIX_PATH=/home/student/ros2_ws/install/tuos_simulations:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/tuos_simulations:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/com2009_simulations
+[12.012s] -- Install configuration: ""
+[12.012s] -- Installing: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/launch
+[12.012s] -- Installing: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/launch/task1.launch.py
+[12.013s] -- Installing: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/launch/task2.launch.py
+[12.013s] -- Installing: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/models
+[12.013s] -- Installing: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/models/task1
+[12.014s] -- Installing: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/models/task1/model.config
+[12.014s] -- Installing: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/models/task1/materials
+[12.014s] -- Installing: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/models/task1/materials/scripts
+[12.015s] -- Installing: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/models/task1/materials/scripts/floor.material
+[12.015s] -- Installing: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/models/task1/materials/textures
+[12.017s] -- Installing: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/models/task1/materials/textures/task1_floor.svg
+[12.018s] -- Installing: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/models/task1/materials/textures/task1_floor.png
+[12.018s] -- Installing: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/models/task1/model.sdf
+[12.018s] -- Installing: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/models/task2
+[12.019s] -- Installing: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/models/task2/model.config
+[12.019s] -- Installing: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/models/task2/materials
+[12.020s] -- Installing: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/models/task2/materials/scripts
+[12.020s] -- Installing: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/models/task2/materials/scripts/floor.material
+[12.021s] -- Installing: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/models/task2/materials/textures
+[12.021s] -- Installing: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/models/task2/materials/textures/task2_floor.png
+[12.022s] -- Installing: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/models/task2/materials/textures/task2_floor.svg
+[12.022s] -- Installing: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/models/task2/model.sdf
+[12.022s] -- Installing: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/models/cr5_arena_walls
+[12.022s] -- Installing: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/models/cr5_arena_walls/model.config
+[12.023s] -- Installing: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/models/cr5_arena_walls/model.sdf
+[12.023s] -- Installing: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/worlds
+[12.023s] -- Installing: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/worlds/task2.world
+[12.024s] -- Installing: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/worlds/task1.world
+[12.025s] -- Installing: /home/student/ros2_ws/install/com2009_simulations/share/ament_index/resource_index/package_run_dependencies/com2009_simulations
+[12.025s] -- Installing: /home/student/ros2_ws/install/com2009_simulations/share/ament_index/resource_index/parent_prefix_path/com2009_simulations
+[12.026s] -- Installing: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/environment/ament_prefix_path.sh
+[12.026s] -- Installing: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/environment/ament_prefix_path.dsv
+[12.026s] -- Installing: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/environment/path.sh
+[12.027s] -- Installing: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/environment/path.dsv
+[12.027s] -- Installing: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/local_setup.bash
+[12.028s] -- Installing: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/local_setup.sh
+[12.028s] -- Installing: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/local_setup.zsh
+[12.028s] -- Installing: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/local_setup.dsv
+[12.028s] -- Installing: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/package.dsv
+[12.029s] -- Installing: /home/student/ros2_ws/install/com2009_simulations/share/ament_index/resource_index/packages/com2009_simulations
+[12.029s] -- Installing: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.030s] -- Installing: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/cmake/com2009_simulationsConfig.cmake
+[12.030s] -- Installing: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/cmake/com2009_simulationsConfig-version.cmake
+[12.030s] -- Installing: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/package.xml
+[12.034s] Invoked command in '/home/student/ros2_ws/build/com2009_simulations' returned '0': AMENT_PREFIX_PATH=/home/student/ros2_ws/install/tuos_simulations:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/tuos_simulations:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/com2009_simulations

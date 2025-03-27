@@ -1,0 +1,6 @@
+{
+  "package_name": "part4_services",
+  "non_idl_tuples": [
+    "/home/student/ros2_ws/src/part4_services:srv/MyNumberGame.srv"
+  ]
+}

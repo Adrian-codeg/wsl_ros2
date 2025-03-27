@@ -1,0 +1,142 @@
+[0.054s] Invoking command in '/home/student/ros2_ws/build/part4_services': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/part4_services -- -j16 -l16
+[0.260s] [  6%] Built target cpp_executable
+[0.401s] [  6%] Built target ament_cmake_python_symlink_part4_services
+[0.467s] [ 15%] Built target part4_services__rosidl_generator_c
+[1.170s] running egg_info
+[1.173s] writing part4_services.egg-info/PKG-INFO
+[1.176s] writing dependency_links to part4_services.egg-info/dependency_links.txt
+[1.178s] writing top-level names to part4_services.egg-info/top_level.txt
+[1.188s] reading manifest file 'part4_services.egg-info/SOURCES.txt'
+[1.190s] writing manifest file 'part4_services.egg-info/SOURCES.txt'
+[1.301s] [ 15%] Built target ament_cmake_python_build_part4_services_egg
+[1.360s] [ 24%] Built target part4_services__rosidl_typesupport_c
+[1.445s] [ 33%] Built target part4_services__rosidl_typesupport_introspection_c
+[1.511s] [ 42%] Built target part4_services__rosidl_typesupport_fastrtps_c
+[1.602s] [ 45%] Built target part4_services__cpp
+[1.704s] [ 45%] Built target ament_cmake_python_symlink_part4_services_modules
+[1.790s] [ 54%] Built target part4_services__rosidl_typesupport_introspection_cpp
+[2.557s] running egg_info
+[2.561s] writing part4_services_modules.egg-info/PKG-INFO
+[2.565s] writing dependency_links to part4_services_modules.egg-info/dependency_links.txt
+[2.565s] writing top-level names to part4_services_modules.egg-info/top_level.txt
+[2.572s] reading manifest file 'part4_services_modules.egg-info/SOURCES.txt'
+[2.574s] writing manifest file 'part4_services_modules.egg-info/SOURCES.txt'
+[2.712s] [ 54%] Built target ament_cmake_python_build_part4_services_modules_egg
+[2.776s] [ 63%] Built target part4_services__rosidl_typesupport_fastrtps_cpp
+[2.867s] [ 72%] Built target part4_services__rosidl_typesupport_cpp
+[2.923s] [ 72%] Built target part4_services
+[2.998s] [ 75%] Built target part4_services__py
+[3.083s] [ 81%] Built target part4_services__rosidl_generator_py
+[3.155s] [ 87%] Built target part4_services__rosidl_typesupport_fastrtps_c__pyext
+[3.224s] [ 93%] Built target part4_services__rosidl_typesupport_c__pyext
+[3.292s] [100%] Built target part4_services__rosidl_typesupport_introspection_c__pyext
+[3.332s] Invoked command in '/home/student/ros2_ws/build/part4_services' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/part4_services -- -j16 -l16
+[3.363s] Invoking command in '/home/student/ros2_ws/build/part4_services': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/part4_services
+[3.382s] -- Install configuration: ""
+[3.383s] -- Execute custom install script
+[3.385s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/lib/part4_services/cpp_executable
+[3.385s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/share/part4_services/environment/pythonpath.sh
+[3.385s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/share/part4_services/environment/pythonpath.dsv
+[3.386s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/local/lib/python3.10/dist-packages/part4_services_modules-0.0.0-py3.10.egg-info/PKG-INFO
+[3.386s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/local/lib/python3.10/dist-packages/part4_services_modules-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.387s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/local/lib/python3.10/dist-packages/part4_services_modules-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.387s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/local/lib/python3.10/dist-packages/part4_services_modules-0.0.0-py3.10.egg-info/top_level.txt
+[3.389s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/local/lib/python3.10/dist-packages/part4_services_modules/__init__.py
+[3.389s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/local/lib/python3.10/dist-packages/part4_services_modules/tb3_tools.py
+[3.389s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/lib/part4_services/my_number_game.py
+[3.389s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/lib/part4_services/number_game_client.py
+[3.389s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/lib/part4_services/map_saver_client.py
+[3.389s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/share/ament_index/resource_index/rosidl_interfaces/part4_services
+[3.390s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/include/part4_services/part4_services/msg/rosidl_generator_c__visibility_control.h
+[3.393s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/include/part4_services/part4_services/srv/detail/my_number_game__functions.h
+[3.395s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/include/part4_services/part4_services/srv/detail/my_number_game__struct.h
+[3.396s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/include/part4_services/part4_services/srv/detail/my_number_game__type_support.h
+[3.397s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/include/part4_services/part4_services/srv/my_number_game.h
+[3.398s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/share/part4_services/environment/library_path.sh
+[3.398s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/share/part4_services/environment/library_path.dsv
+[3.398s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/include/part4_services/part4_services/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.399s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/include/part4_services/part4_services/srv/detail/my_number_game__rosidl_typesupport_fastrtps_c.h
+[3.399s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/include/part4_services/part4_services/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.399s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/include/part4_services/part4_services/srv/detail/my_number_game__builder.hpp
+[3.399s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/include/part4_services/part4_services/srv/detail/my_number_game__struct.hpp
+[3.400s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/include/part4_services/part4_services/srv/detail/my_number_game__traits.hpp
+[3.400s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/include/part4_services/part4_services/srv/detail/my_number_game__type_support.hpp
+[3.400s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/include/part4_services/part4_services/srv/my_number_game.hpp
+[3.400s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/include/part4_services/part4_services/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.400s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/include/part4_services/part4_services/srv/detail/my_number_game__rosidl_typesupport_fastrtps_cpp.hpp
+[3.401s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/include/part4_services/part4_services/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.401s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/include/part4_services/part4_services/srv/detail/my_number_game__rosidl_typesupport_introspection_c.h
+[3.402s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/include/part4_services/part4_services/srv/detail/my_number_game__rosidl_typesupport_introspection_cpp.hpp
+[3.402s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/local/lib/python3.10/dist-packages/part4_services-0.0.0-py3.10.egg-info/PKG-INFO
+[3.403s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/local/lib/python3.10/dist-packages/part4_services-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.403s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/local/lib/python3.10/dist-packages/part4_services-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.403s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/local/lib/python3.10/dist-packages/part4_services-0.0.0-py3.10.egg-info/top_level.txt
+[3.407s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/local/lib/python3.10/dist-packages/part4_services/__init__.py
+[3.408s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/local/lib/python3.10/dist-packages/part4_services/_part4_services_s.ep.rosidl_typesupport_c.c
+[3.409s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/local/lib/python3.10/dist-packages/part4_services/_part4_services_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.410s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/local/lib/python3.10/dist-packages/part4_services/_part4_services_s.ep.rosidl_typesupport_introspection_c.c
+[3.410s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/local/lib/python3.10/dist-packages/part4_services/libpart4_services__rosidl_generator_py.so
+[3.410s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/local/lib/python3.10/dist-packages/part4_services/part4_services_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.411s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/local/lib/python3.10/dist-packages/part4_services/part4_services_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.411s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/local/lib/python3.10/dist-packages/part4_services/part4_services_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.411s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/local/lib/python3.10/dist-packages/part4_services/srv/__init__.py
+[3.412s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/local/lib/python3.10/dist-packages/part4_services/srv/_my_number_game.py
+[3.413s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/local/lib/python3.10/dist-packages/part4_services/srv/_my_number_game_s.c
+[3.413s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/local/lib/python3.10/dist-packages/part4_services/part4_services_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.413s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/local/lib/python3.10/dist-packages/part4_services/part4_services_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.414s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/local/lib/python3.10/dist-packages/part4_services/part4_services_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.414s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/share/part4_services/srv/MyNumberGame.idl
+[3.414s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/share/part4_services/srv/MyNumberGame.srv
+[3.415s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/share/part4_services/srv/MyNumberGame_Request.msg
+[3.415s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/share/part4_services/srv/MyNumberGame_Response.msg
+[3.415s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/share/ament_index/resource_index/package_run_dependencies/part4_services
+[3.415s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/share/ament_index/resource_index/parent_prefix_path/part4_services
+[3.416s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/share/part4_services/environment/ament_prefix_path.sh
+[3.416s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/share/part4_services/environment/ament_prefix_path.dsv
+[3.416s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/share/part4_services/environment/path.sh
+[3.416s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/share/part4_services/environment/path.dsv
+[3.416s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/share/part4_services/local_setup.bash
+[3.416s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/share/part4_services/local_setup.sh
+[3.416s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/share/part4_services/local_setup.zsh
+[3.417s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/share/part4_services/local_setup.dsv
+[3.418s] -- Symlinking: /home/student/ros2_ws/install/part4_services/share/part4_services/package.dsv
+[3.449s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/share/ament_index/resource_index/packages/part4_services
+[3.449s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/share/part4_services/cmake/rosidl_cmake-extras.cmake
+[3.450s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/share/part4_services/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.451s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/share/part4_services/cmake/ament_cmake_export_libraries-extras.cmake
+[3.451s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/share/part4_services/cmake/ament_cmake_export_targets-extras.cmake
+[3.451s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/share/part4_services/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.452s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/share/part4_services/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.452s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/share/part4_services/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.452s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/share/part4_services/cmake/part4_servicesConfig.cmake
+[3.453s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/share/part4_services/cmake/part4_servicesConfig-version.cmake
+[3.453s] -- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/share/part4_services/package.xml
+[3.544s] Listing '/home/student/ros2_ws/install/part4_services/local/lib/python3.10/dist-packages/part4_services_modules'...
+[3.569s] -- Up-to-date: /home/student/ros2_ws/install/part4_services/lib/libpart4_services__rosidl_generator_c.so
+[3.569s] -- Up-to-date: /home/student/ros2_ws/install/part4_services/lib/libpart4_services__rosidl_typesupport_fastrtps_c.so
+[3.570s] -- Up-to-date: /home/student/ros2_ws/install/part4_services/lib/libpart4_services__rosidl_typesupport_fastrtps_cpp.so
+[3.570s] -- Up-to-date: /home/student/ros2_ws/install/part4_services/lib/libpart4_services__rosidl_typesupport_introspection_c.so
+[3.570s] -- Up-to-date: /home/student/ros2_ws/install/part4_services/lib/libpart4_services__rosidl_typesupport_c.so
+[3.570s] -- Up-to-date: /home/student/ros2_ws/install/part4_services/lib/libpart4_services__rosidl_typesupport_introspection_cpp.so
+[3.570s] -- Up-to-date: /home/student/ros2_ws/install/part4_services/lib/libpart4_services__rosidl_typesupport_cpp.so
+[3.654s] Listing '/home/student/ros2_ws/install/part4_services/local/lib/python3.10/dist-packages/part4_services'...
+[3.654s] Listing '/home/student/ros2_ws/install/part4_services/local/lib/python3.10/dist-packages/part4_services/srv'...
+[3.683s] -- Up-to-date: /home/student/ros2_ws/install/part4_services/lib/libpart4_services__rosidl_generator_py.so
+[3.683s] -- Up-to-date: /home/student/ros2_ws/install/part4_services/share/part4_services/cmake/export_part4_services__rosidl_generator_cExport.cmake
+[3.683s] -- Up-to-date: /home/student/ros2_ws/install/part4_services/share/part4_services/cmake/export_part4_services__rosidl_generator_cExport-noconfig.cmake
+[3.683s] -- Up-to-date: /home/student/ros2_ws/install/part4_services/share/part4_services/cmake/export_part4_services__rosidl_typesupport_fastrtps_cExport.cmake
+[3.684s] -- Up-to-date: /home/student/ros2_ws/install/part4_services/share/part4_services/cmake/export_part4_services__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.684s] -- Up-to-date: /home/student/ros2_ws/install/part4_services/share/part4_services/cmake/export_part4_services__rosidl_generator_cppExport.cmake
+[3.684s] -- Up-to-date: /home/student/ros2_ws/install/part4_services/share/part4_services/cmake/export_part4_services__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.684s] -- Up-to-date: /home/student/ros2_ws/install/part4_services/share/part4_services/cmake/export_part4_services__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.684s] -- Up-to-date: /home/student/ros2_ws/install/part4_services/share/part4_services/cmake/part4_services__rosidl_typesupport_introspection_cExport.cmake
+[3.684s] -- Up-to-date: /home/student/ros2_ws/install/part4_services/share/part4_services/cmake/part4_services__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.684s] -- Up-to-date: /home/student/ros2_ws/install/part4_services/share/part4_services/cmake/part4_services__rosidl_typesupport_cExport.cmake
+[3.685s] -- Up-to-date: /home/student/ros2_ws/install/part4_services/share/part4_services/cmake/part4_services__rosidl_typesupport_cExport-noconfig.cmake
+[3.685s] -- Up-to-date: /home/student/ros2_ws/install/part4_services/share/part4_services/cmake/part4_services__rosidl_typesupport_introspection_cppExport.cmake
+[3.685s] -- Up-to-date: /home/student/ros2_ws/install/part4_services/share/part4_services/cmake/part4_services__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.685s] -- Up-to-date: /home/student/ros2_ws/install/part4_services/share/part4_services/cmake/part4_services__rosidl_typesupport_cppExport.cmake
+[3.685s] -- Up-to-date: /home/student/ros2_ws/install/part4_services/share/part4_services/cmake/part4_services__rosidl_typesupport_cppExport-noconfig.cmake
+[3.685s] -- Up-to-date: /home/student/ros2_ws/install/part4_services/share/part4_services/cmake/export_part4_services__rosidl_generator_pyExport.cmake
+[3.686s] -- Up-to-date: /home/student/ros2_ws/install/part4_services/share/part4_services/cmake/export_part4_services__rosidl_generator_pyExport-noconfig.cmake
+[3.697s] Invoked command in '/home/student/ros2_ws/build/part4_services' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/part4_services

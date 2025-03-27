@@ -1,0 +1,446 @@
+[0.000000] (-) TimerEvent: {}
+[0.001010] (-) JobUnselected: {'identifier': 'com2009_simulations'}
+[0.001263] (-) JobUnselected: {'identifier': 'part1_pubsub'}
+[0.001341] (-) JobUnselected: {'identifier': 'part2_navigation'}
+[0.001392] (-) JobUnselected: {'identifier': 'part3_beyond_basics'}
+[0.001441] (-) JobUnselected: {'identifier': 'tuos_examples'}
+[0.001948] (-) JobUnselected: {'identifier': 'tuos_interfaces'}
+[0.002058] (-) JobUnselected: {'identifier': 'tuos_ros'}
+[0.002091] (-) JobUnselected: {'identifier': 'tuos_simulations'}
+[0.002111] (-) JobUnselected: {'identifier': 'tuos_tb3_tools'}
+[0.002141] (part4_services) JobQueued: {'identifier': 'part4_services', 'dependencies': OrderedDict()}
+[0.002176] (part4_services) JobStarted: {'identifier': 'part4_services'}
+[0.054389] (part4_services) JobProgress: {'identifier': 'part4_services', 'progress': 'cmake'}
+[0.058983] (part4_services) JobProgress: {'identifier': 'part4_services', 'progress': 'build'}
+[0.061255] (part4_services) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/student/ros2_ws/build/part4_services', '--', '-j16', '-l16'], 'cwd': '/home/student/ros2_ws/build/part4_services', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'student'), ('WINHOMEDRIVE', 'C:'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', 'true'), ('LD_LIBRARY_PATH', '/home/student/ros2_ws/install/tuos_interfaces/lib:/home/student/ros2_ws/install/part4_services/lib:/home/student/ros2_ws/install/part1_pubsub/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('WT_PROFILE_ID', '{fad0167b-cdda-5d49-a01f-359c645cdb11}'), ('HOME', '/home/student'), ('OLDPWD', '/home/student/ros2_ws/src/part4_services/scripts'), ('WSL_ROS_VER', '2425.01'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'WSL-ROS2'), ('_colcon_cd_root', '/opt/ros/humble/'), ('MANWIN', 'false'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/student/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'student'), ('NAME', 'AdrianetLayla'), ('WSL_INTEROP', '/run/WSL/3508_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XSERVER', 'false'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:/usr/share/gazebo/../../share/gazebo-11/models:'), ('ROS_LOCALHOST_ONLY', '1'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Cloudflare/Cloudflare WARP/:/mnt/c/Users/Adrian/Documents/download/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/MinGW/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin:/mnt/c/Users/Adrian/AppData/Local/Programs/Eclipse Adoptium/jdk-8.0.422.5-hotspot/bin:/mnt/c/Users/Adrian/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin:/mnt/c/Users/Adrian/.dotnet/tools:/mnt/c/Users/Adrian/AppData/Local/Muse Hub/lib:/mnt/c/Download/Microsoft VS Code/bin'), ('WT_SESSION', 'b83ab7a7-6421-43ae-aad3-34b387f8bd31'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/student/ros2_ws/install/tuos_ros:/home/student/ros2_ws/install/tuos_tb3_tools:/home/student/ros2_ws/install/com2009_simulations:/home/student/ros2_ws/install/tuos_simulations:/home/student/ros2_ws/install/tuos_interfaces:/home/student/ros2_ws/install/tuos_examples:/home/student/ros2_ws/install/part4_services:/home/student/ros2_ws/install/part3_beyond_basics:/home/student/ros2_ws/install/part2_navigation:/home/student/ros2_ws/install/part1_pubsub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:/usr/share/gazebo/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/student/ros2_ws/build/part4_services'), ('TURTLEBOT3_MODEL', 'waffle'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/home/student/ros2_ws/install/tuos_interfaces/local/lib/python3.10/dist-packages:/home/student/ros2_ws/install/tuos_examples/local/lib/python3.10/dist-packages:/home/student/ros2_ws/install/part4_services/local/lib/python3.10/dist-packages:/home/student/ros2_ws/install/part3_beyond_basics/local/lib/python3.10/dist-packages:/home/student/ros2_ws/install/part2_navigation/local/lib/python3.10/dist-packages:/home/student/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WINUSER', 'Adrian'), ('CMAKE_PREFIX_PATH', '/home/student/ros2_ws/install/tuos_ros:/home/student/ros2_ws/install/tuos_tb3_tools:/home/student/ros2_ws/install/com2009_simulations:/home/student/ros2_ws/install/tuos_simulations:/home/student/ros2_ws/install/tuos_interfaces:/home/student/ros2_ws/install/tuos_examples:/home/student/ros2_ws/install/part4_services:/home/student/ros2_ws/install/part3_beyond_basics:/home/student/ros2_ws/install/part2_navigation:/home/student/ros2_ws/install/part1_pubsub:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.083643] (-) TimerEvent: {}
+[0.184374] (-) TimerEvent: {}
+[0.285225] (-) TimerEvent: {}
+[0.384444] (part4_services) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.385336] (-) TimerEvent: {}
+[0.485975] (-) TimerEvent: {}
+[0.587131] (-) TimerEvent: {}
+[0.689987] (-) TimerEvent: {}
+[0.790845] (-) TimerEvent: {}
+[0.891710] (-) TimerEvent: {}
+[0.941732] (part4_services) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.972288] (part4_services) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.992610] (-) TimerEvent: {}
+[1.093337] (-) TimerEvent: {}
+[1.195154] (-) TimerEvent: {}
+[1.295748] (-) TimerEvent: {}
+[1.396420] (-) TimerEvent: {}
+[1.490284] (part4_services) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.497100] (-) TimerEvent: {}
+[1.497711] (part4_services) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.513121] (part4_services) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.541633] (part4_services) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.578556] (part4_services) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.600620] (-) TimerEvent: {}
+[1.656016] (part4_services) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.665807] (part4_services) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.701774] (-) TimerEvent: {}
+[1.802618] (-) TimerEvent: {}
+[1.903308] (-) TimerEvent: {}
+[2.004136] (-) TimerEvent: {}
+[2.104860] (-) TimerEvent: {}
+[2.206695] (-) TimerEvent: {}
+[2.308717] (-) TimerEvent: {}
+[2.409592] (-) TimerEvent: {}
+[2.510830] (-) TimerEvent: {}
+[2.612793] (-) TimerEvent: {}
+[2.713535] (-) TimerEvent: {}
+[2.814171] (-) TimerEvent: {}
+[2.914898] (-) TimerEvent: {}
+[3.015492] (-) TimerEvent: {}
+[3.116049] (-) TimerEvent: {}
+[3.216584] (-) TimerEvent: {}
+[3.317390] (-) TimerEvent: {}
+[3.418104] (-) TimerEvent: {}
+[3.518897] (-) TimerEvent: {}
+[3.619633] (-) TimerEvent: {}
+[3.720398] (-) TimerEvent: {}
+[3.821437] (-) TimerEvent: {}
+[3.922373] (-) TimerEvent: {}
+[4.023172] (-) TimerEvent: {}
+[4.123865] (-) TimerEvent: {}
+[4.225117] (-) TimerEvent: {}
+[4.325752] (-) TimerEvent: {}
+[4.426511] (-) TimerEvent: {}
+[4.527236] (-) TimerEvent: {}
+[4.628374] (-) TimerEvent: {}
+[4.729069] (-) TimerEvent: {}
+[4.829662] (-) TimerEvent: {}
+[4.930257] (-) TimerEvent: {}
+[5.031064] (-) TimerEvent: {}
+[5.131711] (-) TimerEvent: {}
+[5.232948] (-) TimerEvent: {}
+[5.333746] (-) TimerEvent: {}
+[5.435586] (-) TimerEvent: {}
+[5.536356] (-) TimerEvent: {}
+[5.637147] (-) TimerEvent: {}
+[5.737822] (-) TimerEvent: {}
+[5.838531] (-) TimerEvent: {}
+[5.940971] (-) TimerEvent: {}
+[6.041556] (-) TimerEvent: {}
+[6.145794] (-) TimerEvent: {}
+[6.246506] (-) TimerEvent: {}
+[6.347726] (-) TimerEvent: {}
+[6.448361] (-) TimerEvent: {}
+[6.548849] (-) TimerEvent: {}
+[6.649259] (-) TimerEvent: {}
+[6.749763] (-) TimerEvent: {}
+[6.852039] (-) TimerEvent: {}
+[6.952572] (-) TimerEvent: {}
+[7.053472] (-) TimerEvent: {}
+[7.154149] (-) TimerEvent: {}
+[7.255684] (-) TimerEvent: {}
+[7.356384] (-) TimerEvent: {}
+[7.459188] (-) TimerEvent: {}
+[7.560601] (-) TimerEvent: {}
+[7.662909] (-) TimerEvent: {}
+[7.763697] (-) TimerEvent: {}
+[7.864837] (-) TimerEvent: {}
+[7.965867] (-) TimerEvent: {}
+[8.066425] (-) TimerEvent: {}
+[8.167096] (-) TimerEvent: {}
+[8.275736] (-) TimerEvent: {}
+[8.376605] (-) TimerEvent: {}
+[8.477815] (-) TimerEvent: {}
+[8.585675] (-) TimerEvent: {}
+[8.686350] (-) TimerEvent: {}
+[8.787266] (-) TimerEvent: {}
+[8.889389] (-) TimerEvent: {}
+[8.990208] (-) TimerEvent: {}
+[9.090974] (-) TimerEvent: {}
+[9.191446] (-) TimerEvent: {}
+[9.291854] (-) TimerEvent: {}
+[9.392821] (-) TimerEvent: {}
+[9.494411] (-) TimerEvent: {}
+[9.597269] (-) TimerEvent: {}
+[9.699837] (-) TimerEvent: {}
+[9.800403] (-) TimerEvent: {}
+[9.901202] (-) TimerEvent: {}
+[10.001897] (-) TimerEvent: {}
+[10.102801] (-) TimerEvent: {}
+[10.211036] (-) TimerEvent: {}
+[10.312424] (-) TimerEvent: {}
+[10.413262] (-) TimerEvent: {}
+[10.513903] (-) TimerEvent: {}
+[10.614589] (-) TimerEvent: {}
+[10.715062] (-) TimerEvent: {}
+[10.816202] (-) TimerEvent: {}
+[10.917062] (-) TimerEvent: {}
+[11.017690] (-) TimerEvent: {}
+[11.118568] (-) TimerEvent: {}
+[11.219062] (-) TimerEvent: {}
+[11.319935] (-) TimerEvent: {}
+[11.422317] (-) TimerEvent: {}
+[11.523203] (-) TimerEvent: {}
+[11.623819] (-) TimerEvent: {}
+[11.724402] (-) TimerEvent: {}
+[11.825678] (-) TimerEvent: {}
+[11.926256] (-) TimerEvent: {}
+[12.027017] (-) TimerEvent: {}
+[12.127654] (-) TimerEvent: {}
+[12.228263] (-) TimerEvent: {}
+[12.329370] (-) TimerEvent: {}
+[12.430641] (-) TimerEvent: {}
+[12.531839] (-) TimerEvent: {}
+[12.634152] (-) TimerEvent: {}
+[12.734919] (-) TimerEvent: {}
+[12.835409] (-) TimerEvent: {}
+[12.937960] (-) TimerEvent: {}
+[13.039324] (-) TimerEvent: {}
+[13.139987] (-) TimerEvent: {}
+[13.247217] (-) TimerEvent: {}
+[13.348795] (-) TimerEvent: {}
+[13.449468] (-) TimerEvent: {}
+[13.550440] (-) TimerEvent: {}
+[13.651448] (-) TimerEvent: {}
+[13.752242] (-) TimerEvent: {}
+[13.855532] (-) TimerEvent: {}
+[13.957897] (-) TimerEvent: {}
+[14.058903] (-) TimerEvent: {}
+[14.163046] (-) TimerEvent: {}
+[14.264346] (-) TimerEvent: {}
+[14.365566] (-) TimerEvent: {}
+[14.466352] (-) TimerEvent: {}
+[14.572509] (-) TimerEvent: {}
+[14.673125] (-) TimerEvent: {}
+[14.774056] (-) TimerEvent: {}
+[14.876380] (-) TimerEvent: {}
+[14.976963] (-) TimerEvent: {}
+[15.077535] (-) TimerEvent: {}
+[15.178210] (-) TimerEvent: {}
+[15.279074] (-) TimerEvent: {}
+[15.379773] (-) TimerEvent: {}
+[15.481762] (-) TimerEvent: {}
+[15.582797] (-) TimerEvent: {}
+[15.683973] (-) TimerEvent: {}
+[15.784723] (-) TimerEvent: {}
+[15.885581] (-) TimerEvent: {}
+[15.986100] (-) TimerEvent: {}
+[16.086925] (-) TimerEvent: {}
+[16.189690] (-) TimerEvent: {}
+[16.290669] (-) TimerEvent: {}
+[16.391246] (-) TimerEvent: {}
+[16.493410] (-) TimerEvent: {}
+[16.594011] (-) TimerEvent: {}
+[16.695749] (-) TimerEvent: {}
+[16.796282] (-) TimerEvent: {}
+[16.897147] (-) TimerEvent: {}
+[16.998049] (-) TimerEvent: {}
+[17.099597] (-) TimerEvent: {}
+[17.200514] (-) TimerEvent: {}
+[17.301148] (-) TimerEvent: {}
+[17.401666] (-) TimerEvent: {}
+[17.506273] (-) TimerEvent: {}
+[17.607064] (-) TimerEvent: {}
+[17.707858] (-) TimerEvent: {}
+[17.808936] (-) TimerEvent: {}
+[17.909744] (-) TimerEvent: {}
+[18.012195] (-) TimerEvent: {}
+[18.112933] (-) TimerEvent: {}
+[18.213659] (-) TimerEvent: {}
+[18.314382] (-) TimerEvent: {}
+[18.415200] (-) TimerEvent: {}
+[18.516542] (-) TimerEvent: {}
+[18.617502] (-) TimerEvent: {}
+[18.718291] (-) TimerEvent: {}
+[18.818889] (-) TimerEvent: {}
+[18.919518] (-) TimerEvent: {}
+[19.020235] (-) TimerEvent: {}
+[19.120787] (-) TimerEvent: {}
+[19.173706] (part4_services) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[19.221021] (-) TimerEvent: {}
+[19.310136] (part4_services) StdoutLine: {'line': b'-- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[19.321423] (-) TimerEvent: {}
+[19.423929] (-) TimerEvent: {}
+[19.524980] (-) TimerEvent: {}
+[19.625857] (-) TimerEvent: {}
+[19.670149] (part4_services) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[19.727401] (-) TimerEvent: {}
+[19.830405] (-) TimerEvent: {}
+[19.931336] (-) TimerEvent: {}
+[20.032099] (-) TimerEvent: {}
+[20.133262] (-) TimerEvent: {}
+[20.234016] (-) TimerEvent: {}
+[20.336971] (-) TimerEvent: {}
+[20.398687] (part4_services) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[20.437465] (-) TimerEvent: {}
+[20.542352] (-) TimerEvent: {}
+[20.643102] (-) TimerEvent: {}
+[20.743918] (-) TimerEvent: {}
+[20.844421] (-) TimerEvent: {}
+[20.944932] (-) TimerEvent: {}
+[21.045525] (-) TimerEvent: {}
+[21.146725] (-) TimerEvent: {}
+[21.247254] (-) TimerEvent: {}
+[21.280706] (part4_services) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[21.347452] (-) TimerEvent: {}
+[21.448123] (-) TimerEvent: {}
+[21.549403] (-) TimerEvent: {}
+[21.625795] (part4_services) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[21.649599] (-) TimerEvent: {}
+[21.682984] (part4_services) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[21.749877] (-) TimerEvent: {}
+[21.773008] (part4_services) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[21.773885] (part4_services) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[21.774492] (part4_services) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[21.850251] (-) TimerEvent: {}
+[21.852612] (part4_services) StdoutLine: {'line': b'-- Configuring done\n'}
+[21.950408] (-) TimerEvent: {}
+[22.033513] (part4_services) StdoutLine: {'line': b'-- Generating done\n'}
+[22.050634] (-) TimerEvent: {}
+[22.075212] (part4_services) StdoutLine: {'line': b'-- Build files have been written to: /home/student/ros2_ws/build/part4_services\n'}
+[22.150949] (-) TimerEvent: {}
+[22.172888] (part4_services) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_executable\x1b[0m\n'}
+[22.239840] (part4_services) StdoutLine: {'line': b'[  6%] Built target cpp_executable\n'}
+[22.251232] (-) TimerEvent: {}
+[22.333593] (part4_services) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_symlink_part4_services\n'}
+[22.351466] (-) TimerEvent: {}
+[22.359651] (part4_services) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target part4_services__rosidl_generator_c\x1b[0m\n'}
+[22.389077] (part4_services) StdoutLine: {'line': b'[ 15%] Built target part4_services__rosidl_generator_c\n'}
+[22.451721] (-) TimerEvent: {}
+[22.552280] (-) TimerEvent: {}
+[22.652802] (-) TimerEvent: {}
+[22.753589] (-) TimerEvent: {}
+[22.854168] (-) TimerEvent: {}
+[22.954906] (-) TimerEvent: {}
+[23.031284] (part4_services) StdoutLine: {'line': b'running egg_info\n'}
+[23.034761] (part4_services) StdoutLine: {'line': b'writing part4_services.egg-info/PKG-INFO\n'}
+[23.035948] (part4_services) StdoutLine: {'line': b'writing dependency_links to part4_services.egg-info/dependency_links.txt\n'}
+[23.037146] (part4_services) StdoutLine: {'line': b'writing top-level names to part4_services.egg-info/top_level.txt\n'}
+[23.045024] (part4_services) StdoutLine: {'line': b"reading manifest file 'part4_services.egg-info/SOURCES.txt'\n"}
+[23.046527] (part4_services) StdoutLine: {'line': b"writing manifest file 'part4_services.egg-info/SOURCES.txt'\n"}
+[23.055136] (-) TimerEvent: {}
+[23.157171] (-) TimerEvent: {}
+[23.206823] (part4_services) StdoutLine: {'line': b'[ 15%] Built target ament_cmake_python_build_part4_services_egg\n'}
+[23.236818] (part4_services) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target part4_services__rosidl_typesupport_c\x1b[0m\n'}
+[23.257488] (-) TimerEvent: {}
+[23.266715] (part4_services) StdoutLine: {'line': b'[ 24%] Built target part4_services__rosidl_typesupport_c\n'}
+[23.298150] (part4_services) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target part4_services__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[23.334646] (part4_services) StdoutLine: {'line': b'[ 33%] Built target part4_services__rosidl_typesupport_introspection_c\n'}
+[23.357783] (-) TimerEvent: {}
+[23.365558] (part4_services) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target part4_services__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[23.401823] (part4_services) StdoutLine: {'line': b'[ 42%] Built target part4_services__rosidl_typesupport_fastrtps_c\n'}
+[23.458050] (-) TimerEvent: {}
+[23.464094] (part4_services) StdoutLine: {'line': b'[ 45%] Built target part4_services__cpp\n'}
+[23.544486] (part4_services) StdoutLine: {'line': b'[ 45%] Built target ament_cmake_python_symlink_part4_services_modules\n'}
+[23.558346] (-) TimerEvent: {}
+[23.570298] (part4_services) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target part4_services__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[23.616804] (part4_services) StdoutLine: {'line': b'[ 54%] Built target part4_services__rosidl_typesupport_introspection_cpp\n'}
+[23.658948] (-) TimerEvent: {}
+[23.759678] (-) TimerEvent: {}
+[23.860789] (-) TimerEvent: {}
+[23.961633] (-) TimerEvent: {}
+[24.062552] (-) TimerEvent: {}
+[24.163051] (-) TimerEvent: {}
+[24.263591] (-) TimerEvent: {}
+[24.302448] (part4_services) StdoutLine: {'line': b'running egg_info\n'}
+[24.304652] (part4_services) StdoutLine: {'line': b'writing part4_services_modules.egg-info/PKG-INFO\n'}
+[24.306452] (part4_services) StdoutLine: {'line': b'writing dependency_links to part4_services_modules.egg-info/dependency_links.txt\n'}
+[24.308512] (part4_services) StdoutLine: {'line': b'writing top-level names to part4_services_modules.egg-info/top_level.txt\n'}
+[24.317781] (part4_services) StdoutLine: {'line': b"reading manifest file 'part4_services_modules.egg-info/SOURCES.txt'\n"}
+[24.320441] (part4_services) StdoutLine: {'line': b"writing manifest file 'part4_services_modules.egg-info/SOURCES.txt'\n"}
+[24.369660] (-) TimerEvent: {}
+[24.459413] (part4_services) StdoutLine: {'line': b'[ 54%] Built target ament_cmake_python_build_part4_services_modules_egg\n'}
+[24.469989] (-) TimerEvent: {}
+[24.482066] (part4_services) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target part4_services__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[24.528908] (part4_services) StdoutLine: {'line': b'[ 63%] Built target part4_services__rosidl_typesupport_fastrtps_cpp\n'}
+[24.552329] (part4_services) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target part4_services__rosidl_typesupport_cpp\x1b[0m\n'}
+[24.570294] (-) TimerEvent: {}
+[24.587207] (part4_services) StdoutLine: {'line': b'[ 72%] Built target part4_services__rosidl_typesupport_cpp\n'}
+[24.638134] (part4_services) StdoutLine: {'line': b'[ 72%] Built target part4_services\n'}
+[24.671703] (-) TimerEvent: {}
+[24.688916] (part4_services) StdoutLine: {'line': b'[ 75%] Built target part4_services__py\n'}
+[24.714886] (part4_services) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target part4_services__rosidl_generator_py\x1b[0m\n'}
+[24.747307] (part4_services) StdoutLine: {'line': b'[ 81%] Built target part4_services__rosidl_generator_py\n'}
+[24.771882] (-) TimerEvent: {}
+[24.772244] (part4_services) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target part4_services__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[24.806613] (part4_services) StdoutLine: {'line': b'[ 87%] Built target part4_services__rosidl_typesupport_fastrtps_c__pyext\n'}
+[24.834503] (part4_services) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target part4_services__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[24.864768] (part4_services) StdoutLine: {'line': b'[ 93%] Built target part4_services__rosidl_typesupport_c__pyext\n'}
+[24.872107] (-) TimerEvent: {}
+[24.903886] (part4_services) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target part4_services__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[24.946643] (part4_services) StdoutLine: {'line': b'[100%] Built target part4_services__rosidl_typesupport_introspection_c__pyext\n'}
+[24.971750] (part4_services) CommandEnded: {'returncode': 0}
+[24.979153] (-) TimerEvent: {}
+[24.979789] (part4_services) JobProgress: {'identifier': 'part4_services', 'progress': 'install'}
+[24.998401] (part4_services) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/student/ros2_ws/build/part4_services'], 'cwd': '/home/student/ros2_ws/build/part4_services', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'student'), ('WINHOMEDRIVE', 'C:'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', 'true'), ('LD_LIBRARY_PATH', '/home/student/ros2_ws/install/tuos_interfaces/lib:/home/student/ros2_ws/install/part4_services/lib:/home/student/ros2_ws/install/part1_pubsub/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('WT_PROFILE_ID', '{fad0167b-cdda-5d49-a01f-359c645cdb11}'), ('HOME', '/home/student'), ('OLDPWD', '/home/student/ros2_ws/src/part4_services/scripts'), ('WSL_ROS_VER', '2425.01'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'WSL-ROS2'), ('_colcon_cd_root', '/opt/ros/humble/'), ('MANWIN', 'false'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/student/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'student'), ('NAME', 'AdrianetLayla'), ('WSL_INTEROP', '/run/WSL/3508_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XSERVER', 'false'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:/usr/share/gazebo/../../share/gazebo-11/models:'), ('ROS_LOCALHOST_ONLY', '1'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Cloudflare/Cloudflare WARP/:/mnt/c/Users/Adrian/Documents/download/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/MinGW/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin:/mnt/c/Users/Adrian/AppData/Local/Programs/Eclipse Adoptium/jdk-8.0.422.5-hotspot/bin:/mnt/c/Users/Adrian/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin:/mnt/c/Users/Adrian/.dotnet/tools:/mnt/c/Users/Adrian/AppData/Local/Muse Hub/lib:/mnt/c/Download/Microsoft VS Code/bin'), ('WT_SESSION', 'b83ab7a7-6421-43ae-aad3-34b387f8bd31'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/student/ros2_ws/install/tuos_ros:/home/student/ros2_ws/install/tuos_tb3_tools:/home/student/ros2_ws/install/com2009_simulations:/home/student/ros2_ws/install/tuos_simulations:/home/student/ros2_ws/install/tuos_interfaces:/home/student/ros2_ws/install/tuos_examples:/home/student/ros2_ws/install/part4_services:/home/student/ros2_ws/install/part3_beyond_basics:/home/student/ros2_ws/install/part2_navigation:/home/student/ros2_ws/install/part1_pubsub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:/usr/share/gazebo/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/student/ros2_ws/build/part4_services'), ('TURTLEBOT3_MODEL', 'waffle'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/home/student/ros2_ws/install/tuos_interfaces/local/lib/python3.10/dist-packages:/home/student/ros2_ws/install/tuos_examples/local/lib/python3.10/dist-packages:/home/student/ros2_ws/install/part4_services/local/lib/python3.10/dist-packages:/home/student/ros2_ws/install/part3_beyond_basics/local/lib/python3.10/dist-packages:/home/student/ros2_ws/install/part2_navigation/local/lib/python3.10/dist-packages:/home/student/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WINUSER', 'Adrian'), ('CMAKE_PREFIX_PATH', '/home/student/ros2_ws/install/tuos_ros:/home/student/ros2_ws/install/tuos_tb3_tools:/home/student/ros2_ws/install/com2009_simulations:/home/student/ros2_ws/install/tuos_simulations:/home/student/ros2_ws/install/tuos_interfaces:/home/student/ros2_ws/install/tuos_examples:/home/student/ros2_ws/install/part4_services:/home/student/ros2_ws/install/part3_beyond_basics:/home/student/ros2_ws/install/part2_navigation:/home/student/ros2_ws/install/part1_pubsub:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[25.020317] (part4_services) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[25.023501] (part4_services) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[25.026176] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/lib/part4_services/cpp_executable\n'}
+[25.028750] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/share/part4_services/environment/pythonpath.sh\n'}
+[25.029760] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/share/part4_services/environment/pythonpath.dsv\n'}
+[25.030862] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/local/lib/python3.10/dist-packages/part4_services_modules-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[25.031252] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/local/lib/python3.10/dist-packages/part4_services_modules-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[25.031515] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/local/lib/python3.10/dist-packages/part4_services_modules-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[25.031692] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/local/lib/python3.10/dist-packages/part4_services_modules-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[25.032165] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/local/lib/python3.10/dist-packages/part4_services_modules/__init__.py\n'}
+[25.032426] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/local/lib/python3.10/dist-packages/part4_services_modules/tb3_tools.py\n'}
+[25.032730] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/lib/part4_services/my_number_game.py\n'}
+[25.033300] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/lib/part4_services/number_game_client.py\n'}
+[25.033906] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/lib/part4_services/map_saver_client.py\n'}
+[25.034276] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/share/ament_index/resource_index/rosidl_interfaces/part4_services\n'}
+[25.034745] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/include/part4_services/part4_services/msg/rosidl_generator_c__visibility_control.h\n'}
+[25.034980] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/include/part4_services/part4_services/srv/detail/my_number_game__functions.h\n'}
+[25.035227] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/include/part4_services/part4_services/srv/detail/my_number_game__struct.h\n'}
+[25.035710] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/include/part4_services/part4_services/srv/detail/my_number_game__type_support.h\n'}
+[25.036034] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/include/part4_services/part4_services/srv/my_number_game.h\n'}
+[25.036767] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/share/part4_services/environment/library_path.sh\n'}
+[25.037308] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/share/part4_services/environment/library_path.dsv\n'}
+[25.038118] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/include/part4_services/part4_services/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[25.039402] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/include/part4_services/part4_services/srv/detail/my_number_game__rosidl_typesupport_fastrtps_c.h\n'}
+[25.040131] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/include/part4_services/part4_services/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[25.041082] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/include/part4_services/part4_services/srv/detail/my_number_game__builder.hpp\n'}
+[25.042049] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/include/part4_services/part4_services/srv/detail/my_number_game__struct.hpp\n'}
+[25.042821] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/include/part4_services/part4_services/srv/detail/my_number_game__traits.hpp\n'}
+[25.043177] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/include/part4_services/part4_services/srv/detail/my_number_game__type_support.hpp\n'}
+[25.043379] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/include/part4_services/part4_services/srv/my_number_game.hpp\n'}
+[25.044776] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/include/part4_services/part4_services/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[25.045780] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/include/part4_services/part4_services/srv/detail/my_number_game__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[25.046633] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/include/part4_services/part4_services/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[25.046887] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/include/part4_services/part4_services/srv/detail/my_number_game__rosidl_typesupport_introspection_c.h\n'}
+[25.048220] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/include/part4_services/part4_services/srv/detail/my_number_game__rosidl_typesupport_introspection_cpp.hpp\n'}
+[25.049157] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/local/lib/python3.10/dist-packages/part4_services-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[25.050109] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/local/lib/python3.10/dist-packages/part4_services-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[25.050579] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/local/lib/python3.10/dist-packages/part4_services-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[25.050691] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/local/lib/python3.10/dist-packages/part4_services-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[25.055674] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/local/lib/python3.10/dist-packages/part4_services/__init__.py\n'}
+[25.056450] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/local/lib/python3.10/dist-packages/part4_services/_part4_services_s.ep.rosidl_typesupport_c.c\n'}
+[25.056584] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/local/lib/python3.10/dist-packages/part4_services/_part4_services_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[25.056698] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/local/lib/python3.10/dist-packages/part4_services/_part4_services_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[25.056987] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/local/lib/python3.10/dist-packages/part4_services/libpart4_services__rosidl_generator_py.so\n'}
+[25.057741] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/local/lib/python3.10/dist-packages/part4_services/part4_services_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[25.058041] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/local/lib/python3.10/dist-packages/part4_services/part4_services_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[25.058407] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/local/lib/python3.10/dist-packages/part4_services/part4_services_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[25.058509] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/local/lib/python3.10/dist-packages/part4_services/srv/__init__.py\n'}
+[25.058576] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/local/lib/python3.10/dist-packages/part4_services/srv/_my_number_game.py\n'}
+[25.058636] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/local/lib/python3.10/dist-packages/part4_services/srv/_my_number_game_s.c\n'}
+[25.058764] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/local/lib/python3.10/dist-packages/part4_services/part4_services_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[25.059387] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/local/lib/python3.10/dist-packages/part4_services/part4_services_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[25.060542] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/local/lib/python3.10/dist-packages/part4_services/part4_services_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[25.061700] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/share/part4_services/srv/MyNumberGame.idl\n'}
+[25.062275] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/share/part4_services/srv/MyNumberGame.srv\n'}
+[25.062890] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/share/part4_services/srv/MyNumberGame_Request.msg\n'}
+[25.063449] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/share/part4_services/srv/MyNumberGame_Response.msg\n'}
+[25.064286] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/share/ament_index/resource_index/package_run_dependencies/part4_services\n'}
+[25.064796] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/share/ament_index/resource_index/parent_prefix_path/part4_services\n'}
+[25.065317] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/share/part4_services/environment/ament_prefix_path.sh\n'}
+[25.065644] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/share/part4_services/environment/ament_prefix_path.dsv\n'}
+[25.067059] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/share/part4_services/environment/path.sh\n'}
+[25.067670] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/share/part4_services/environment/path.dsv\n'}
+[25.069618] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/share/part4_services/local_setup.bash\n'}
+[25.072931] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/share/part4_services/local_setup.sh\n'}
+[25.074369] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/share/part4_services/local_setup.zsh\n'}
+[25.074837] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/share/part4_services/local_setup.dsv\n'}
+[25.081577] (-) TimerEvent: {}
+[25.081910] (part4_services) StdoutLine: {'line': b'-- Symlinking: /home/student/ros2_ws/install/part4_services/share/part4_services/package.dsv\n'}
+[25.105928] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/share/ament_index/resource_index/packages/part4_services\n'}
+[25.106191] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/share/part4_services/cmake/rosidl_cmake-extras.cmake\n'}
+[25.106275] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/share/part4_services/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[25.106323] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/share/part4_services/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[25.106372] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/share/part4_services/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[25.106418] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/share/part4_services/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[25.106459] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/share/part4_services/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[25.106501] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/share/part4_services/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[25.107204] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/share/part4_services/cmake/part4_servicesConfig.cmake\n'}
+[25.107545] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/share/part4_services/cmake/part4_servicesConfig-version.cmake\n'}
+[25.108574] (part4_services) StdoutLine: {'line': b'-- Up-to-date symlink: /home/student/ros2_ws/install/part4_services/share/part4_services/package.xml\n'}
+[25.181847] (-) TimerEvent: {}
+[25.186872] (part4_services) StdoutLine: {'line': b"Listing '/home/student/ros2_ws/install/part4_services/local/lib/python3.10/dist-packages/part4_services_modules'...\n"}
+[25.224437] (part4_services) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/part4_services/lib/libpart4_services__rosidl_generator_c.so\n'}
+[25.224710] (part4_services) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/part4_services/lib/libpart4_services__rosidl_typesupport_fastrtps_c.so\n'}
+[25.224764] (part4_services) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/part4_services/lib/libpart4_services__rosidl_typesupport_fastrtps_cpp.so\n'}
+[25.224806] (part4_services) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/part4_services/lib/libpart4_services__rosidl_typesupport_introspection_c.so\n'}
+[25.224887] (part4_services) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/part4_services/lib/libpart4_services__rosidl_typesupport_c.so\n'}
+[25.224929] (part4_services) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/part4_services/lib/libpart4_services__rosidl_typesupport_introspection_cpp.so\n'}
+[25.224970] (part4_services) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/part4_services/lib/libpart4_services__rosidl_typesupport_cpp.so\n'}
+[25.282032] (-) TimerEvent: {}
+[25.316008] (part4_services) StdoutLine: {'line': b"Listing '/home/student/ros2_ws/install/part4_services/local/lib/python3.10/dist-packages/part4_services'...\n"}
+[25.316349] (part4_services) StdoutLine: {'line': b"Compiling '/home/student/ros2_ws/install/part4_services/local/lib/python3.10/dist-packages/part4_services/__init__.py'...\n"}
+[25.316431] (part4_services) StdoutLine: {'line': b"Listing '/home/student/ros2_ws/install/part4_services/local/lib/python3.10/dist-packages/part4_services/srv'...\n"}
+[25.347585] (part4_services) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/part4_services/lib/libpart4_services__rosidl_generator_py.so\n'}
+[25.348218] (part4_services) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/part4_services/share/part4_services/cmake/export_part4_services__rosidl_generator_cExport.cmake\n'}
+[25.348377] (part4_services) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/part4_services/share/part4_services/cmake/export_part4_services__rosidl_generator_cExport-noconfig.cmake\n'}
+[25.348561] (part4_services) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/part4_services/share/part4_services/cmake/export_part4_services__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[25.348759] (part4_services) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/part4_services/share/part4_services/cmake/export_part4_services__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[25.348861] (part4_services) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/part4_services/share/part4_services/cmake/export_part4_services__rosidl_generator_cppExport.cmake\n'}
+[25.348952] (part4_services) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/part4_services/share/part4_services/cmake/export_part4_services__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[25.349094] (part4_services) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/part4_services/share/part4_services/cmake/export_part4_services__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[25.349235] (part4_services) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/part4_services/share/part4_services/cmake/part4_services__rosidl_typesupport_introspection_cExport.cmake\n'}
+[25.349371] (part4_services) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/part4_services/share/part4_services/cmake/part4_services__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[25.349494] (part4_services) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/part4_services/share/part4_services/cmake/part4_services__rosidl_typesupport_cExport.cmake\n'}
+[25.349632] (part4_services) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/part4_services/share/part4_services/cmake/part4_services__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[25.349729] (part4_services) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/part4_services/share/part4_services/cmake/part4_services__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[25.350707] (part4_services) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/part4_services/share/part4_services/cmake/part4_services__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[25.350937] (part4_services) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/part4_services/share/part4_services/cmake/part4_services__rosidl_typesupport_cppExport.cmake\n'}
+[25.351199] (part4_services) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/part4_services/share/part4_services/cmake/part4_services__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[25.351409] (part4_services) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/part4_services/share/part4_services/cmake/export_part4_services__rosidl_generator_pyExport.cmake\n'}
+[25.351468] (part4_services) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/part4_services/share/part4_services/cmake/export_part4_services__rosidl_generator_pyExport-noconfig.cmake\n'}
+[25.363283] (part4_services) CommandEnded: {'returncode': 0}
+[25.382386] (-) TimerEvent: {}
+[25.450646] (part4_services) JobEnded: {'identifier': 'part4_services', 'rc': 0}
+[25.457359] (-) EventReactorShutdown: {}

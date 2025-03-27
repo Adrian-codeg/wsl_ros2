@@ -1,0 +1,1 @@
+/home/student/ros2_ws/build/part5_actions/rosidl_generator_py/part5_actions/action/__init__.py

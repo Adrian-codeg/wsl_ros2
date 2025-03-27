@@ -1,0 +1,1 @@
+/home/student/ros2_ws/build/part4_services/ament_cmake_python/part4_services_modules/part4_services_modules.egg-info/top_level.txt

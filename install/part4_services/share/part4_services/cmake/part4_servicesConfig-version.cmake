@@ -1,0 +1,1 @@
+/home/student/ros2_ws/build/part4_services/ament_cmake_core/part4_servicesConfig-version.cmake

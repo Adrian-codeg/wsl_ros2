@@ -1,0 +1,8 @@
+[  3%] Built target part5_actions__cpp
+[  3%] Built target ament_cmake_python_symlink_part5_actions_modules
+[ 12%] Built target part5_actions__rosidl_typesupport_introspection_cpp
+running egg_info
+writing part5_actions_modules.egg-info/PKG-INFO
+writing dependency_links to part5_actions_modules.egg-info/dependency_links.txt
+writing top-level names to part5_actions_modules.egg-info/top_level.txt
+reading manifest file 'part5_actions_modules.egg-info/SOURCES.txt'

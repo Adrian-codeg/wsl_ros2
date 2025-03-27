@@ -1,0 +1,401 @@
+[0.000000] (-) TimerEvent: {}
+[0.002338] (-) JobUnselected: {'identifier': 'com2009_simulations'}
+[0.011451] (-) JobUnselected: {'identifier': 'part1_pubsub'}
+[0.014841] (-) JobUnselected: {'identifier': 'part2_navigation'}
+[0.014900] (-) JobUnselected: {'identifier': 'part3_beyond_basics'}
+[0.014917] (-) JobUnselected: {'identifier': 'part4_services'}
+[0.014933] (-) JobUnselected: {'identifier': 'tuos_examples'}
+[0.014947] (-) JobUnselected: {'identifier': 'tuos_interfaces'}
+[0.014960] (-) JobUnselected: {'identifier': 'tuos_ros'}
+[0.014973] (-) JobUnselected: {'identifier': 'tuos_simulations'}
+[0.014985] (-) JobUnselected: {'identifier': 'tuos_tb3_tools'}
+[0.015006] (part5_actions) JobQueued: {'identifier': 'part5_actions', 'dependencies': OrderedDict()}
+[0.015030] (part5_actions) JobStarted: {'identifier': 'part5_actions'}
+[0.063854] (part5_actions) JobProgress: {'identifier': 'part5_actions', 'progress': 'cmake'}
+[0.066125] (part5_actions) Command: {'cmd': ['/usr/bin/cmake', '/home/student/ros2_ws/src/part5_actions', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/install/part5_actions'], 'cwd': '/home/student/ros2_ws/build/part5_actions', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'student'), ('WINHOMEDRIVE', 'C:'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', 'true'), ('LD_LIBRARY_PATH', '/home/student/ros2_ws/install/tuos_interfaces/lib:/home/student/ros2_ws/install/part4_services/lib:/home/student/ros2_ws/install/part1_pubsub/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('WT_PROFILE_ID', '{fad0167b-cdda-5d49-a01f-359c645cdb11}'), ('HOME', '/home/student'), ('OLDPWD', '/home/student/ros2_ws/src/part5_actions/scripts'), ('WSL_ROS_VER', '2425.01'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'WSL-ROS2'), ('_colcon_cd_root', '/opt/ros/humble/'), ('MANWIN', 'false'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/student/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'student'), ('NAME', 'AdrianetLayla'), ('WSL_INTEROP', '/run/WSL/1170_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XSERVER', 'false'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:'), ('ROS_LOCALHOST_ONLY', '1'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Cloudflare/Cloudflare WARP/:/mnt/c/Users/Adrian/Documents/download/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/MinGW/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2025.1.0/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin:/mnt/c/Users/Adrian/AppData/Local/Programs/Eclipse Adoptium/jdk-8.0.422.5-hotspot/bin:/mnt/c/Users/Adrian/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin:/mnt/c/Users/Adrian/.dotnet/tools:/mnt/c/Users/Adrian/AppData/Local/Muse Hub/lib:/mnt/c/Download/Microsoft VS Code/bin'), ('WT_SESSION', '38965669-24bc-4b4b-98ee-4d8cbb16a19b'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/student/ros2_ws/install/tuos_ros:/home/student/ros2_ws/install/tuos_tb3_tools:/home/student/ros2_ws/install/com2009_simulations:/home/student/ros2_ws/install/tuos_simulations:/home/student/ros2_ws/install/tuos_interfaces:/home/student/ros2_ws/install/tuos_examples:/home/student/ros2_ws/install/part4_services:/home/student/ros2_ws/install/part3_beyond_basics:/home/student/ros2_ws/install/part2_navigation:/home/student/ros2_ws/install/part1_pubsub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/student/ros2_ws/build/part5_actions'), ('TURTLEBOT3_MODEL', 'waffle'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/home/student/ros2_ws/install/tuos_interfaces/local/lib/python3.10/dist-packages:/home/student/ros2_ws/install/tuos_examples/local/lib/python3.10/dist-packages:/home/student/ros2_ws/install/part4_services/local/lib/python3.10/dist-packages:/home/student/ros2_ws/install/part3_beyond_basics/local/lib/python3.10/dist-packages:/home/student/ros2_ws/install/part2_navigation/local/lib/python3.10/dist-packages:/home/student/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WINUSER', 'Adrian'), ('CMAKE_PREFIX_PATH', '/home/student/ros2_ws/install/tuos_ros:/home/student/ros2_ws/install/tuos_tb3_tools:/home/student/ros2_ws/install/com2009_simulations:/home/student/ros2_ws/install/tuos_simulations:/home/student/ros2_ws/install/tuos_interfaces:/home/student/ros2_ws/install/tuos_examples:/home/student/ros2_ws/install/part4_services:/home/student/ros2_ws/install/part3_beyond_basics:/home/student/ros2_ws/install/part2_navigation:/home/student/ros2_ws/install/part1_pubsub:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.099942] (-) TimerEvent: {}
+[0.200713] (-) TimerEvent: {}
+[0.301672] (-) TimerEvent: {}
+[0.402366] (-) TimerEvent: {}
+[0.507316] (-) TimerEvent: {}
+[0.608209] (-) TimerEvent: {}
+[0.687341] (part5_actions) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.708546] (-) TimerEvent: {}
+[0.809266] (-) TimerEvent: {}
+[0.909916] (-) TimerEvent: {}
+[1.010701] (-) TimerEvent: {}
+[1.111227] (-) TimerEvent: {}
+[1.211936] (-) TimerEvent: {}
+[1.312670] (-) TimerEvent: {}
+[1.413116] (-) TimerEvent: {}
+[1.513501] (-) TimerEvent: {}
+[1.614022] (-) TimerEvent: {}
+[1.714780] (-) TimerEvent: {}
+[1.815768] (-) TimerEvent: {}
+[1.916404] (-) TimerEvent: {}
+[2.017818] (-) TimerEvent: {}
+[2.118643] (-) TimerEvent: {}
+[2.194221] (part5_actions) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.219298] (-) TimerEvent: {}
+[2.319971] (-) TimerEvent: {}
+[2.420418] (-) TimerEvent: {}
+[2.521116] (-) TimerEvent: {}
+[2.621698] (-) TimerEvent: {}
+[2.722350] (-) TimerEvent: {}
+[2.822863] (-) TimerEvent: {}
+[2.923332] (-) TimerEvent: {}
+[3.023955] (-) TimerEvent: {}
+[3.124487] (-) TimerEvent: {}
+[3.181386] (part5_actions) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.225579] (-) TimerEvent: {}
+[3.326397] (-) TimerEvent: {}
+[3.427171] (-) TimerEvent: {}
+[3.527726] (-) TimerEvent: {}
+[3.589934] (part5_actions) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.598511] (part5_actions) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.609087] (part5_actions) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.610502] (part5_actions) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.618256] (part5_actions) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.628084] (-) TimerEvent: {}
+[3.728871] (-) TimerEvent: {}
+[3.830401] (-) TimerEvent: {}
+[3.931130] (-) TimerEvent: {}
+[4.030863] (part5_actions) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.031141] (-) TimerEvent: {}
+[4.034099] (part5_actions) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.034474] (part5_actions) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.035205] (part5_actions) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.085622] (part5_actions) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[4.131309] (-) TimerEvent: {}
+[4.231758] (-) TimerEvent: {}
+[4.332250] (-) TimerEvent: {}
+[4.425033] (part5_actions) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[4.432454] (-) TimerEvent: {}
+[4.533201] (-) TimerEvent: {}
+[4.594797] (part5_actions) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[4.633382] (-) TimerEvent: {}
+[4.716978] (part5_actions) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[4.734463] (-) TimerEvent: {}
+[4.835526] (-) TimerEvent: {}
+[4.935932] (-) TimerEvent: {}
+[5.036440] (-) TimerEvent: {}
+[5.137295] (-) TimerEvent: {}
+[5.216710] (part5_actions) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[5.229030] (part5_actions) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[5.237506] (-) TimerEvent: {}
+[5.270469] (part5_actions) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[5.320806] (part5_actions) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.337763] (-) TimerEvent: {}
+[5.386287] (part5_actions) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.437956] (-) TimerEvent: {}
+[5.539174] (-) TimerEvent: {}
+[5.560944] (part5_actions) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[5.569110] (part5_actions) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[5.639261] (-) TimerEvent: {}
+[5.739656] (-) TimerEvent: {}
+[5.840116] (-) TimerEvent: {}
+[5.940840] (-) TimerEvent: {}
+[6.041588] (-) TimerEvent: {}
+[6.151198] (-) TimerEvent: {}
+[6.251960] (-) TimerEvent: {}
+[6.352834] (-) TimerEvent: {}
+[6.453418] (-) TimerEvent: {}
+[6.553930] (-) TimerEvent: {}
+[6.654408] (-) TimerEvent: {}
+[6.754850] (-) TimerEvent: {}
+[6.855485] (-) TimerEvent: {}
+[6.956222] (-) TimerEvent: {}
+[7.056834] (-) TimerEvent: {}
+[7.157367] (-) TimerEvent: {}
+[7.257949] (-) TimerEvent: {}
+[7.359902] (-) TimerEvent: {}
+[7.460799] (-) TimerEvent: {}
+[7.561657] (-) TimerEvent: {}
+[7.662121] (-) TimerEvent: {}
+[7.762676] (-) TimerEvent: {}
+[7.863198] (-) TimerEvent: {}
+[7.963905] (-) TimerEvent: {}
+[8.064664] (-) TimerEvent: {}
+[8.165408] (-) TimerEvent: {}
+[8.266094] (-) TimerEvent: {}
+[8.366588] (-) TimerEvent: {}
+[8.467150] (-) TimerEvent: {}
+[8.568087] (-) TimerEvent: {}
+[8.669000] (-) TimerEvent: {}
+[8.770334] (-) TimerEvent: {}
+[8.871160] (-) TimerEvent: {}
+[8.971770] (-) TimerEvent: {}
+[8.996688] (part5_actions) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[9.072043] (-) TimerEvent: {}
+[9.172719] (-) TimerEvent: {}
+[9.273397] (-) TimerEvent: {}
+[9.374481] (-) TimerEvent: {}
+[9.475214] (-) TimerEvent: {}
+[9.575662] (-) TimerEvent: {}
+[9.676418] (-) TimerEvent: {}
+[9.777061] (-) TimerEvent: {}
+[9.877857] (-) TimerEvent: {}
+[9.978455] (-) TimerEvent: {}
+[10.080947] (-) TimerEvent: {}
+[10.181500] (-) TimerEvent: {}
+[10.282006] (-) TimerEvent: {}
+[10.382491] (-) TimerEvent: {}
+[10.482991] (-) TimerEvent: {}
+[10.583512] (-) TimerEvent: {}
+[10.684621] (-) TimerEvent: {}
+[10.785312] (-) TimerEvent: {}
+[10.886102] (-) TimerEvent: {}
+[10.986863] (-) TimerEvent: {}
+[11.087754] (-) TimerEvent: {}
+[11.189061] (-) TimerEvent: {}
+[11.294725] (-) TimerEvent: {}
+[11.395279] (-) TimerEvent: {}
+[11.495717] (-) TimerEvent: {}
+[11.596289] (-) TimerEvent: {}
+[11.696965] (-) TimerEvent: {}
+[11.798483] (-) TimerEvent: {}
+[11.899040] (-) TimerEvent: {}
+[11.999851] (-) TimerEvent: {}
+[12.100524] (-) TimerEvent: {}
+[12.201319] (-) TimerEvent: {}
+[12.302281] (-) TimerEvent: {}
+[12.403102] (-) TimerEvent: {}
+[12.491680] (part5_actions) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[12.503232] (-) TimerEvent: {}
+[12.603825] (-) TimerEvent: {}
+[12.704736] (-) TimerEvent: {}
+[12.810149] (-) TimerEvent: {}
+[12.910871] (-) TimerEvent: {}
+[13.011400] (-) TimerEvent: {}
+[13.112619] (-) TimerEvent: {}
+[13.213364] (-) TimerEvent: {}
+[13.314096] (-) TimerEvent: {}
+[13.415046] (-) TimerEvent: {}
+[13.515856] (-) TimerEvent: {}
+[13.616346] (-) TimerEvent: {}
+[13.716919] (-) TimerEvent: {}
+[13.817677] (-) TimerEvent: {}
+[13.918483] (-) TimerEvent: {}
+[14.019089] (-) TimerEvent: {}
+[14.119818] (-) TimerEvent: {}
+[14.220321] (-) TimerEvent: {}
+[14.320880] (-) TimerEvent: {}
+[14.421585] (-) TimerEvent: {}
+[14.522363] (-) TimerEvent: {}
+[14.624712] (-) TimerEvent: {}
+[14.725712] (-) TimerEvent: {}
+[14.826748] (-) TimerEvent: {}
+[14.927242] (-) TimerEvent: {}
+[15.027928] (-) TimerEvent: {}
+[15.128908] (-) TimerEvent: {}
+[15.229695] (-) TimerEvent: {}
+[15.330345] (-) TimerEvent: {}
+[15.431115] (-) TimerEvent: {}
+[15.531954] (-) TimerEvent: {}
+[15.633180] (-) TimerEvent: {}
+[15.733973] (-) TimerEvent: {}
+[15.834472] (-) TimerEvent: {}
+[15.935495] (-) TimerEvent: {}
+[16.036249] (-) TimerEvent: {}
+[16.137107] (-) TimerEvent: {}
+[16.239884] (-) TimerEvent: {}
+[16.341220] (-) TimerEvent: {}
+[16.441944] (-) TimerEvent: {}
+[16.542487] (-) TimerEvent: {}
+[16.643077] (-) TimerEvent: {}
+[16.743567] (-) TimerEvent: {}
+[16.844289] (-) TimerEvent: {}
+[16.944962] (-) TimerEvent: {}
+[17.045906] (-) TimerEvent: {}
+[17.146685] (-) TimerEvent: {}
+[17.247157] (-) TimerEvent: {}
+[17.351828] (-) TimerEvent: {}
+[17.452630] (-) TimerEvent: {}
+[17.553226] (-) TimerEvent: {}
+[17.653883] (-) TimerEvent: {}
+[17.754892] (-) TimerEvent: {}
+[17.855645] (-) TimerEvent: {}
+[17.956247] (-) TimerEvent: {}
+[18.057477] (-) TimerEvent: {}
+[18.158117] (-) TimerEvent: {}
+[18.259021] (-) TimerEvent: {}
+[18.359629] (-) TimerEvent: {}
+[18.460559] (-) TimerEvent: {}
+[18.561124] (-) TimerEvent: {}
+[18.661674] (-) TimerEvent: {}
+[18.762665] (-) TimerEvent: {}
+[18.863409] (-) TimerEvent: {}
+[18.964144] (-) TimerEvent: {}
+[19.065528] (-) TimerEvent: {}
+[19.166575] (-) TimerEvent: {}
+[19.267560] (-) TimerEvent: {}
+[19.368019] (-) TimerEvent: {}
+[19.468586] (-) TimerEvent: {}
+[19.556668] (part5_actions) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[19.568776] (-) TimerEvent: {}
+[19.595063] (part5_actions) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[19.668950] (-) TimerEvent: {}
+[19.769825] (-) TimerEvent: {}
+[19.870536] (-) TimerEvent: {}
+[19.970947] (-) TimerEvent: {}
+[19.980507] (part5_actions) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[19.980868] (part5_actions) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[20.071140] (-) TimerEvent: {}
+[20.171636] (-) TimerEvent: {}
+[20.272193] (-) TimerEvent: {}
+[20.367352] (part5_actions) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[20.369449] (part5_actions) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[20.372348] (-) TimerEvent: {}
+[20.472973] (-) TimerEvent: {}
+[20.537301] (part5_actions) StdoutLine: {'line': b'-- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[20.573248] (-) TimerEvent: {}
+[20.673795] (-) TimerEvent: {}
+[20.774395] (-) TimerEvent: {}
+[20.875010] (-) TimerEvent: {}
+[20.879935] (part5_actions) StdoutLine: {'line': b'-- Configuring done\n'}
+[20.901488] (part5_actions) StdoutLine: {'line': b'-- Generating done\n'}
+[20.909290] (part5_actions) StdoutLine: {'line': b'-- Build files have been written to: /home/student/ros2_ws/build/part5_actions\n'}
+[20.948834] (part5_actions) CommandEnded: {'returncode': 0}
+[20.950787] (part5_actions) JobProgress: {'identifier': 'part5_actions', 'progress': 'build'}
+[20.953461] (part5_actions) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/student/ros2_ws/build/part5_actions', '--', '-j16', '-l16'], 'cwd': '/home/student/ros2_ws/build/part5_actions', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'student'), ('WINHOMEDRIVE', 'C:'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', 'true'), ('LD_LIBRARY_PATH', '/home/student/ros2_ws/install/tuos_interfaces/lib:/home/student/ros2_ws/install/part4_services/lib:/home/student/ros2_ws/install/part1_pubsub/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('WT_PROFILE_ID', '{fad0167b-cdda-5d49-a01f-359c645cdb11}'), ('HOME', '/home/student'), ('OLDPWD', '/home/student/ros2_ws/src/part5_actions/scripts'), ('WSL_ROS_VER', '2425.01'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'WSL-ROS2'), ('_colcon_cd_root', '/opt/ros/humble/'), ('MANWIN', 'false'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/student/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'student'), ('NAME', 'AdrianetLayla'), ('WSL_INTEROP', '/run/WSL/1170_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XSERVER', 'false'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:'), ('ROS_LOCALHOST_ONLY', '1'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Cloudflare/Cloudflare WARP/:/mnt/c/Users/Adrian/Documents/download/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/MinGW/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2025.1.0/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin:/mnt/c/Users/Adrian/AppData/Local/Programs/Eclipse Adoptium/jdk-8.0.422.5-hotspot/bin:/mnt/c/Users/Adrian/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin:/mnt/c/Users/Adrian/.dotnet/tools:/mnt/c/Users/Adrian/AppData/Local/Muse Hub/lib:/mnt/c/Download/Microsoft VS Code/bin'), ('WT_SESSION', '38965669-24bc-4b4b-98ee-4d8cbb16a19b'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/student/ros2_ws/install/tuos_ros:/home/student/ros2_ws/install/tuos_tb3_tools:/home/student/ros2_ws/install/com2009_simulations:/home/student/ros2_ws/install/tuos_simulations:/home/student/ros2_ws/install/tuos_interfaces:/home/student/ros2_ws/install/tuos_examples:/home/student/ros2_ws/install/part4_services:/home/student/ros2_ws/install/part3_beyond_basics:/home/student/ros2_ws/install/part2_navigation:/home/student/ros2_ws/install/part1_pubsub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/student/ros2_ws/build/part5_actions'), ('TURTLEBOT3_MODEL', 'waffle'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/home/student/ros2_ws/install/tuos_interfaces/local/lib/python3.10/dist-packages:/home/student/ros2_ws/install/tuos_examples/local/lib/python3.10/dist-packages:/home/student/ros2_ws/install/part4_services/local/lib/python3.10/dist-packages:/home/student/ros2_ws/install/part3_beyond_basics/local/lib/python3.10/dist-packages:/home/student/ros2_ws/install/part2_navigation/local/lib/python3.10/dist-packages:/home/student/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WINUSER', 'Adrian'), ('CMAKE_PREFIX_PATH', '/home/student/ros2_ws/install/tuos_ros:/home/student/ros2_ws/install/tuos_tb3_tools:/home/student/ros2_ws/install/com2009_simulations:/home/student/ros2_ws/install/tuos_simulations:/home/student/ros2_ws/install/tuos_interfaces:/home/student/ros2_ws/install/tuos_examples:/home/student/ros2_ws/install/part4_services:/home/student/ros2_ws/install/part3_beyond_basics:/home/student/ros2_ws/install/part2_navigation:/home/student/ros2_ws/install/part1_pubsub:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[20.975242] (-) TimerEvent: {}
+[21.046245] (part5_actions) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cpp_executable.dir/src/minimal_node.cpp.o\x1b[0m\n'}
+[21.075384] (-) TimerEvent: {}
+[21.176009] (-) TimerEvent: {}
+[21.276959] (-) TimerEvent: {}
+[21.377780] (-) TimerEvent: {}
+[21.479007] (-) TimerEvent: {}
+[21.580055] (-) TimerEvent: {}
+[21.680563] (-) TimerEvent: {}
+[21.781113] (-) TimerEvent: {}
+[21.881847] (-) TimerEvent: {}
+[21.982797] (-) TimerEvent: {}
+[22.086432] (-) TimerEvent: {}
+[22.187113] (-) TimerEvent: {}
+[22.287736] (-) TimerEvent: {}
+[22.388386] (-) TimerEvent: {}
+[22.489351] (-) TimerEvent: {}
+[22.591204] (-) TimerEvent: {}
+[22.692352] (-) TimerEvent: {}
+[22.792916] (-) TimerEvent: {}
+[22.896227] (-) TimerEvent: {}
+[22.996874] (-) TimerEvent: {}
+[23.097677] (-) TimerEvent: {}
+[23.198297] (-) TimerEvent: {}
+[23.299000] (-) TimerEvent: {}
+[23.399634] (-) TimerEvent: {}
+[23.500232] (-) TimerEvent: {}
+[23.600715] (-) TimerEvent: {}
+[23.701474] (-) TimerEvent: {}
+[23.802014] (-) TimerEvent: {}
+[23.902613] (-) TimerEvent: {}
+[24.003362] (-) TimerEvent: {}
+[24.104051] (-) TimerEvent: {}
+[24.204825] (-) TimerEvent: {}
+[24.309178] (-) TimerEvent: {}
+[24.409647] (-) TimerEvent: {}
+[24.513406] (-) TimerEvent: {}
+[24.613914] (-) TimerEvent: {}
+[24.714560] (-) TimerEvent: {}
+[24.815097] (-) TimerEvent: {}
+[24.915699] (-) TimerEvent: {}
+[25.016457] (-) TimerEvent: {}
+[25.117180] (-) TimerEvent: {}
+[25.218062] (-) TimerEvent: {}
+[25.318751] (-) TimerEvent: {}
+[25.419504] (-) TimerEvent: {}
+[25.520560] (-) TimerEvent: {}
+[25.621011] (-) TimerEvent: {}
+[25.721501] (-) TimerEvent: {}
+[25.824796] (-) TimerEvent: {}
+[25.925189] (-) TimerEvent: {}
+[26.025576] (-) TimerEvent: {}
+[26.126258] (-) TimerEvent: {}
+[26.227777] (-) TimerEvent: {}
+[26.329221] (-) TimerEvent: {}
+[26.430748] (-) TimerEvent: {}
+[26.531337] (-) TimerEvent: {}
+[26.632257] (-) TimerEvent: {}
+[26.732649] (-) TimerEvent: {}
+[26.833051] (-) TimerEvent: {}
+[26.933590] (-) TimerEvent: {}
+[27.034186] (-) TimerEvent: {}
+[27.135401] (-) TimerEvent: {}
+[27.236312] (-) TimerEvent: {}
+[27.336961] (-) TimerEvent: {}
+[27.437582] (-) TimerEvent: {}
+[27.538207] (-) TimerEvent: {}
+[27.638665] (-) TimerEvent: {}
+[27.740143] (-) TimerEvent: {}
+[27.840803] (-) TimerEvent: {}
+[27.941538] (-) TimerEvent: {}
+[28.042247] (-) TimerEvent: {}
+[28.142773] (-) TimerEvent: {}
+[28.223277] (part5_actions) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable cpp_executable\x1b[0m\n'}
+[28.242965] (-) TimerEvent: {}
+[28.344941] (-) TimerEvent: {}
+[28.446246] (-) TimerEvent: {}
+[28.546999] (-) TimerEvent: {}
+[28.647505] (-) TimerEvent: {}
+[28.748121] (-) TimerEvent: {}
+[28.786917] (part5_actions) StdoutLine: {'line': b'[100%] Built target cpp_executable\n'}
+[28.839218] (part5_actions) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_symlink_part5_actions_modules\n'}
+[28.848253] (-) TimerEvent: {}
+[28.948774] (-) TimerEvent: {}
+[29.049286] (-) TimerEvent: {}
+[29.149814] (-) TimerEvent: {}
+[29.250557] (-) TimerEvent: {}
+[29.351381] (-) TimerEvent: {}
+[29.370079] (part5_actions) StdoutLine: {'line': b'running egg_info\n'}
+[29.370712] (part5_actions) StdoutLine: {'line': b'creating part5_actions_modules.egg-info\n'}
+[29.373107] (part5_actions) StdoutLine: {'line': b'writing part5_actions_modules.egg-info/PKG-INFO\n'}
+[29.373477] (part5_actions) StdoutLine: {'line': b'writing dependency_links to part5_actions_modules.egg-info/dependency_links.txt\n'}
+[29.373548] (part5_actions) StdoutLine: {'line': b'writing top-level names to part5_actions_modules.egg-info/top_level.txt\n'}
+[29.374588] (part5_actions) StdoutLine: {'line': b"writing manifest file 'part5_actions_modules.egg-info/SOURCES.txt'\n"}
+[29.385884] (part5_actions) StdoutLine: {'line': b"reading manifest file 'part5_actions_modules.egg-info/SOURCES.txt'\n"}
+[29.387556] (part5_actions) StdoutLine: {'line': b"writing manifest file 'part5_actions_modules.egg-info/SOURCES.txt'\n"}
+[29.451669] (-) TimerEvent: {}
+[29.501633] (part5_actions) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_part5_actions_modules_egg\n'}
+[29.515769] (part5_actions) CommandEnded: {'returncode': 0}
+[29.517066] (part5_actions) JobProgress: {'identifier': 'part5_actions', 'progress': 'install'}
+[29.534859] (part5_actions) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/student/ros2_ws/build/part5_actions'], 'cwd': '/home/student/ros2_ws/build/part5_actions', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'student'), ('WINHOMEDRIVE', 'C:'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', 'true'), ('LD_LIBRARY_PATH', '/home/student/ros2_ws/install/tuos_interfaces/lib:/home/student/ros2_ws/install/part4_services/lib:/home/student/ros2_ws/install/part1_pubsub/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('WT_PROFILE_ID', '{fad0167b-cdda-5d49-a01f-359c645cdb11}'), ('HOME', '/home/student'), ('OLDPWD', '/home/student/ros2_ws/src/part5_actions/scripts'), ('WSL_ROS_VER', '2425.01'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'WSL-ROS2'), ('_colcon_cd_root', '/opt/ros/humble/'), ('MANWIN', 'false'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/student/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'student'), ('NAME', 'AdrianetLayla'), ('WSL_INTEROP', '/run/WSL/1170_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XSERVER', 'false'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:'), ('ROS_LOCALHOST_ONLY', '1'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Cloudflare/Cloudflare WARP/:/mnt/c/Users/Adrian/Documents/download/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/MinGW/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2025.1.0/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/bin:/mnt/c/Users/Adrian/AppData/Local/Programs/Eclipse Adoptium/jdk-8.0.422.5-hotspot/bin:/mnt/c/Users/Adrian/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin:/mnt/c/Users/Adrian/.dotnet/tools:/mnt/c/Users/Adrian/AppData/Local/Muse Hub/lib:/mnt/c/Download/Microsoft VS Code/bin'), ('WT_SESSION', '38965669-24bc-4b4b-98ee-4d8cbb16a19b'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/student/ros2_ws/install/tuos_ros:/home/student/ros2_ws/install/tuos_tb3_tools:/home/student/ros2_ws/install/com2009_simulations:/home/student/ros2_ws/install/tuos_simulations:/home/student/ros2_ws/install/tuos_interfaces:/home/student/ros2_ws/install/tuos_examples:/home/student/ros2_ws/install/part4_services:/home/student/ros2_ws/install/part3_beyond_basics:/home/student/ros2_ws/install/part2_navigation:/home/student/ros2_ws/install/part1_pubsub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('PWD', '/home/student/ros2_ws/build/part5_actions'), ('TURTLEBOT3_MODEL', 'waffle'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/home/student/ros2_ws/install/tuos_interfaces/local/lib/python3.10/dist-packages:/home/student/ros2_ws/install/tuos_examples/local/lib/python3.10/dist-packages:/home/student/ros2_ws/install/part4_services/local/lib/python3.10/dist-packages:/home/student/ros2_ws/install/part3_beyond_basics/local/lib/python3.10/dist-packages:/home/student/ros2_ws/install/part2_navigation/local/lib/python3.10/dist-packages:/home/student/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WINUSER', 'Adrian'), ('CMAKE_PREFIX_PATH', '/home/student/ros2_ws/install/tuos_ros:/home/student/ros2_ws/install/tuos_tb3_tools:/home/student/ros2_ws/install/com2009_simulations:/home/student/ros2_ws/install/tuos_simulations:/home/student/ros2_ws/install/tuos_interfaces:/home/student/ros2_ws/install/tuos_examples:/home/student/ros2_ws/install/part4_services:/home/student/ros2_ws/install/part3_beyond_basics:/home/student/ros2_ws/install/part2_navigation:/home/student/ros2_ws/install/part1_pubsub:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[29.551821] (-) TimerEvent: {}
+[29.555431] (part5_actions) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[29.556318] (part5_actions) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[29.557580] (part5_actions) StdoutLine: {'line': b'-- Symlinking: /home/student/ros2_ws/install/part5_actions/lib/part5_actions/cpp_executable\n'}
+[29.569646] (part5_actions) StdoutLine: {'line': b'-- Symlinking: /home/student/ros2_ws/install/part5_actions/share/part5_actions/environment/pythonpath.sh\n'}
+[29.592546] (part5_actions) StdoutLine: {'line': b'-- Symlinking: /home/student/ros2_ws/install/part5_actions/share/part5_actions/environment/pythonpath.dsv\n'}
+[29.614211] (part5_actions) StdoutLine: {'line': b'-- Symlinking: /home/student/ros2_ws/install/part5_actions/local/lib/python3.10/dist-packages/part5_actions_modules-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[29.628539] (part5_actions) StdoutLine: {'line': b'-- Symlinking: /home/student/ros2_ws/install/part5_actions/local/lib/python3.10/dist-packages/part5_actions_modules-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[29.645812] (part5_actions) StdoutLine: {'line': b'-- Symlinking: /home/student/ros2_ws/install/part5_actions/local/lib/python3.10/dist-packages/part5_actions_modules-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[29.654247] (-) TimerEvent: {}
+[29.665287] (part5_actions) StdoutLine: {'line': b'-- Symlinking: /home/student/ros2_ws/install/part5_actions/local/lib/python3.10/dist-packages/part5_actions_modules-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[29.685338] (part5_actions) StdoutLine: {'line': b'-- Symlinking: /home/student/ros2_ws/install/part5_actions/local/lib/python3.10/dist-packages/part5_actions_modules/__init__.py\n'}
+[29.702403] (part5_actions) StdoutLine: {'line': b'-- Symlinking: /home/student/ros2_ws/install/part5_actions/local/lib/python3.10/dist-packages/part5_actions_modules/tb3_tools.py\n'}
+[29.719189] (part5_actions) StdoutLine: {'line': b'-- Symlinking: /home/student/ros2_ws/install/part5_actions/lib/part5_actions/camera_sweep_action_client.py\n'}
+[29.736558] (part5_actions) StdoutLine: {'line': b'-- Symlinking: /home/student/ros2_ws/install/part5_actions/share/ament_index/resource_index/package_run_dependencies/part5_actions\n'}
+[29.752432] (part5_actions) StdoutLine: {'line': b'-- Symlinking: /home/student/ros2_ws/install/part5_actions/share/ament_index/resource_index/parent_prefix_path/part5_actions\n'}
+[29.754442] (-) TimerEvent: {}
+[29.774363] (part5_actions) StdoutLine: {'line': b'-- Symlinking: /home/student/ros2_ws/install/part5_actions/share/part5_actions/environment/ament_prefix_path.sh\n'}
+[29.788904] (part5_actions) StdoutLine: {'line': b'-- Symlinking: /home/student/ros2_ws/install/part5_actions/share/part5_actions/environment/ament_prefix_path.dsv\n'}
+[29.802270] (part5_actions) StdoutLine: {'line': b'-- Symlinking: /home/student/ros2_ws/install/part5_actions/share/part5_actions/environment/path.sh\n'}
+[29.820424] (part5_actions) StdoutLine: {'line': b'-- Symlinking: /home/student/ros2_ws/install/part5_actions/share/part5_actions/environment/path.dsv\n'}
+[29.839445] (part5_actions) StdoutLine: {'line': b'-- Symlinking: /home/student/ros2_ws/install/part5_actions/share/part5_actions/local_setup.bash\n'}
+[29.854741] (-) TimerEvent: {}
+[29.855198] (part5_actions) StdoutLine: {'line': b'-- Symlinking: /home/student/ros2_ws/install/part5_actions/share/part5_actions/local_setup.sh\n'}
+[29.877058] (part5_actions) StdoutLine: {'line': b'-- Symlinking: /home/student/ros2_ws/install/part5_actions/share/part5_actions/local_setup.zsh\n'}
+[29.889299] (part5_actions) StdoutLine: {'line': b'-- Symlinking: /home/student/ros2_ws/install/part5_actions/share/part5_actions/local_setup.dsv\n'}
+[29.903814] (part5_actions) StdoutLine: {'line': b'-- Symlinking: /home/student/ros2_ws/install/part5_actions/share/part5_actions/package.dsv\n'}
+[29.927562] (part5_actions) StdoutLine: {'line': b'-- Symlinking: /home/student/ros2_ws/install/part5_actions/share/ament_index/resource_index/packages/part5_actions\n'}
+[29.942864] (part5_actions) StdoutLine: {'line': b'-- Symlinking: /home/student/ros2_ws/install/part5_actions/share/part5_actions/cmake/part5_actionsConfig.cmake\n'}
+[29.954552] (part5_actions) StdoutLine: {'line': b'-- Symlinking: /home/student/ros2_ws/install/part5_actions/share/part5_actions/cmake/part5_actionsConfig-version.cmake\n'}
+[29.955036] (-) TimerEvent: {}
+[29.973516] (part5_actions) StdoutLine: {'line': b'-- Symlinking: /home/student/ros2_ws/install/part5_actions/share/part5_actions/package.xml\n'}
+[30.055244] (-) TimerEvent: {}
+[30.063146] (part5_actions) StdoutLine: {'line': b"Listing '/home/student/ros2_ws/install/part5_actions/local/lib/python3.10/dist-packages/part5_actions_modules'...\n"}
+[30.063499] (part5_actions) StdoutLine: {'line': b"Compiling '/home/student/ros2_ws/install/part5_actions/local/lib/python3.10/dist-packages/part5_actions_modules/__init__.py'...\n"}
+[30.063611] (part5_actions) StdoutLine: {'line': b"Compiling '/home/student/ros2_ws/install/part5_actions/local/lib/python3.10/dist-packages/part5_actions_modules/tb3_tools.py'...\n"}
+[30.088315] (part5_actions) CommandEnded: {'returncode': 0}
+[30.153828] (part5_actions) JobEnded: {'identifier': 'part5_actions', 'rc': 0}
+[30.155326] (-) TimerEvent: {}
+[30.156049] (-) EventReactorShutdown: {}

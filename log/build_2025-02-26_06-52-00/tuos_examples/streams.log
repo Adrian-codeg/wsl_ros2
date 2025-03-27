@@ -1,0 +1,48 @@
+[0.077s] Invoking command in '/home/student/ros2_ws/build/tuos_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/tuos_examples -- -j16 -l16
+[0.193s] [100%] Built target cpp_executable
+[0.259s] [100%] Built target ament_cmake_python_copy_tuos_examples
+[0.685s] running egg_info
+[0.687s] writing tuos_examples.egg-info/PKG-INFO
+[0.688s] writing dependency_links to tuos_examples.egg-info/dependency_links.txt
+[0.691s] writing top-level names to tuos_examples.egg-info/top_level.txt
+[0.699s] reading manifest file 'tuos_examples.egg-info/SOURCES.txt'
+[0.702s] writing manifest file 'tuos_examples.egg-info/SOURCES.txt'
+[0.798s] [100%] Built target ament_cmake_python_build_tuos_examples_egg
+[0.819s] Invoked command in '/home/student/ros2_ws/build/tuos_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/tuos_examples -- -j16 -l16
+[0.822s] Invoking command in '/home/student/ros2_ws/build/tuos_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/tuos_examples
+[0.839s] -- Install configuration: ""
+[0.839s] -- Up-to-date: /home/student/ros2_ws/install/tuos_examples/lib/tuos_examples/cpp_executable
+[0.839s] -- Up-to-date: /home/student/ros2_ws/install/tuos_examples/share/tuos_examples/environment/pythonpath.sh
+[0.839s] -- Up-to-date: /home/student/ros2_ws/install/tuos_examples/share/tuos_examples/environment/pythonpath.dsv
+[0.840s] -- Up-to-date: /home/student/ros2_ws/install/tuos_examples/local/lib/python3.10/dist-packages/tuos_examples-0.0.0-py3.10.egg-info
+[0.840s] -- Installing: /home/student/ros2_ws/install/tuos_examples/local/lib/python3.10/dist-packages/tuos_examples-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.840s] -- Installing: /home/student/ros2_ws/install/tuos_examples/local/lib/python3.10/dist-packages/tuos_examples-0.0.0-py3.10.egg-info/PKG-INFO
+[0.840s] -- Installing: /home/student/ros2_ws/install/tuos_examples/local/lib/python3.10/dist-packages/tuos_examples-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.840s] -- Installing: /home/student/ros2_ws/install/tuos_examples/local/lib/python3.10/dist-packages/tuos_examples-0.0.0-py3.10.egg-info/top_level.txt
+[0.840s] -- Up-to-date: /home/student/ros2_ws/install/tuos_examples/local/lib/python3.10/dist-packages/tuos_examples
+[0.841s] -- Up-to-date: /home/student/ros2_ws/install/tuos_examples/local/lib/python3.10/dist-packages/tuos_examples/tb3_tools.py
+[0.841s] -- Up-to-date: /home/student/ros2_ws/install/tuos_examples/local/lib/python3.10/dist-packages/tuos_examples/__init__.py
+[0.908s] Listing '/home/student/ros2_ws/install/tuos_examples/local/lib/python3.10/dist-packages/tuos_examples'...
+[0.928s] -- Up-to-date: /home/student/ros2_ws/install/tuos_examples/lib/tuos_examples/odom_subscriber_template.py
+[0.928s] -- Up-to-date: /home/student/ros2_ws/install/tuos_examples/lib/tuos_examples/robot_pose.py
+[0.933s] -- Up-to-date: /home/student/ros2_ws/install/tuos_examples/lib/tuos_examples/camera_sweep_action_server.py
+[0.934s] -- Up-to-date: /home/student/ros2_ws/install/tuos_examples/lib/tuos_examples/waffle_yaw_action_server.py
+[0.934s] -- Up-to-date: /home/student/ros2_ws/install/tuos_examples/lib/tuos_examples/image_colours.py
+[0.934s] -- Up-to-date: /home/student/ros2_ws/install/tuos_examples/lib/tuos_examples/colour_search.py
+[0.934s] -- Up-to-date: /home/student/ros2_ws/install/tuos_examples/lib/tuos_examples/number_game.py
+[0.934s] -- Up-to-date: /home/student/ros2_ws/install/tuos_examples/share/ament_index/resource_index/package_run_dependencies/tuos_examples
+[0.934s] -- Up-to-date: /home/student/ros2_ws/install/tuos_examples/share/ament_index/resource_index/parent_prefix_path/tuos_examples
+[0.935s] -- Up-to-date: /home/student/ros2_ws/install/tuos_examples/share/tuos_examples/environment/ament_prefix_path.sh
+[0.935s] -- Up-to-date: /home/student/ros2_ws/install/tuos_examples/share/tuos_examples/environment/ament_prefix_path.dsv
+[0.935s] -- Up-to-date: /home/student/ros2_ws/install/tuos_examples/share/tuos_examples/environment/path.sh
+[0.939s] -- Up-to-date: /home/student/ros2_ws/install/tuos_examples/share/tuos_examples/environment/path.dsv
+[0.940s] -- Up-to-date: /home/student/ros2_ws/install/tuos_examples/share/tuos_examples/local_setup.bash
+[0.942s] -- Up-to-date: /home/student/ros2_ws/install/tuos_examples/share/tuos_examples/local_setup.sh
+[0.943s] -- Up-to-date: /home/student/ros2_ws/install/tuos_examples/share/tuos_examples/local_setup.zsh
+[0.943s] -- Up-to-date: /home/student/ros2_ws/install/tuos_examples/share/tuos_examples/local_setup.dsv
+[0.943s] -- Installing: /home/student/ros2_ws/install/tuos_examples/share/tuos_examples/package.dsv
+[0.943s] -- Up-to-date: /home/student/ros2_ws/install/tuos_examples/share/ament_index/resource_index/packages/tuos_examples
+[0.943s] -- Up-to-date: /home/student/ros2_ws/install/tuos_examples/share/tuos_examples/cmake/tuos_examplesConfig.cmake
+[0.943s] -- Up-to-date: /home/student/ros2_ws/install/tuos_examples/share/tuos_examples/cmake/tuos_examplesConfig-version.cmake
+[0.943s] -- Up-to-date: /home/student/ros2_ws/install/tuos_examples/share/tuos_examples/package.xml
+[0.944s] Invoked command in '/home/student/ros2_ws/build/tuos_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/tuos_examples

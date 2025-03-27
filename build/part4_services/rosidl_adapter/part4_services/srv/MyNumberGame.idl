@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from part4_services/srv/MyNumberGame.srv
+// generated code does not contain a copyright notice
+
+
+module part4_services {
+  module srv {
+    struct MyNumberGame_Request {
+      int32 guess;
+
+      boolean cheat;
+    };
+    struct MyNumberGame_Response {
+      int32 num_guesses;
+
+      string hint;
+
+      boolean correct;
+    };
+  };
+};

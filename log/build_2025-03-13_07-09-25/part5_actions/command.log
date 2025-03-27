@@ -1,0 +1,4 @@
+Invoking command in '/home/student/ros2_ws/build/part5_actions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/part5_actions -- -j16 -l16
+Invoked command in '/home/student/ros2_ws/build/part5_actions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/part5_actions -- -j16 -l16
+Invoking command in '/home/student/ros2_ws/build/part5_actions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/part5_actions
+Invoked command in '/home/student/ros2_ws/build/part5_actions' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/part5_actions

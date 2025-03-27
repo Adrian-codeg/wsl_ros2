@@ -1,0 +1,49 @@
+[0.075s] Invoking command in '/home/student/ros2_ws/build/part5_actions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/part5_actions -- -j16 -l16
+[0.203s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.492s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.566s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[1.024s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.040s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.067s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.135s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.192s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.326s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.335s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[13.789s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[13.950s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[14.243s] -- Configuring done
+[14.307s] -- Generating done
+[14.325s] -- Build files have been written to: /home/student/ros2_ws/build/part5_actions
+[14.393s] [35m[1mConsolidate compiler generated dependencies of target cpp_executable[0m
+[14.433s] [ 50%] Built target ament_cmake_python_symlink_part5_actions_modules
+[14.433s] [100%] Built target cpp_executable
+[14.841s] running egg_info
+[14.842s] writing part5_actions_modules.egg-info/PKG-INFO
+[14.843s] writing dependency_links to part5_actions_modules.egg-info/dependency_links.txt
+[14.843s] writing top-level names to part5_actions_modules.egg-info/top_level.txt
+[14.852s] reading manifest file 'part5_actions_modules.egg-info/SOURCES.txt'
+[14.855s] writing manifest file 'part5_actions_modules.egg-info/SOURCES.txt'
+[14.951s] [100%] Built target ament_cmake_python_build_part5_actions_modules_egg
+[14.977s] Invoked command in '/home/student/ros2_ws/build/part5_actions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/part5_actions -- -j16 -l16
+[15.006s] Invoking command in '/home/student/ros2_ws/build/part5_actions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/part5_actions
+[15.023s] -- Install configuration: ""
+[15.023s] -- Execute custom install script
+[15.024s] -- Up-to-date symlink: /home/student/ros2_ws/install/part5_actions/lib/part5_actions/cpp_executable
+[15.024s] -- Up-to-date symlink: /home/student/ros2_ws/install/part5_actions/share/part5_actions/environment/pythonpath.sh
+[15.025s] -- Up-to-date symlink: /home/student/ros2_ws/install/part5_actions/share/part5_actions/environment/pythonpath.dsv
+[15.026s] -- Up-to-date symlink: /home/student/ros2_ws/install/part5_actions/local/lib/python3.10/dist-packages/part5_actions_modules-0.0.0-py3.10.egg-info/PKG-INFO
+[15.026s] -- Up-to-date symlink: /home/student/ros2_ws/install/part5_actions/local/lib/python3.10/dist-packages/part5_actions_modules-0.0.0-py3.10.egg-info/SOURCES.txt
+[15.027s] -- Up-to-date symlink: /home/student/ros2_ws/install/part5_actions/local/lib/python3.10/dist-packages/part5_actions_modules-0.0.0-py3.10.egg-info/dependency_links.txt
+[15.029s] -- Up-to-date symlink: /home/student/ros2_ws/install/part5_actions/local/lib/python3.10/dist-packages/part5_actions_modules-0.0.0-py3.10.egg-info/top_level.txt
+[15.033s] -- Up-to-date symlink: /home/student/ros2_ws/install/part5_actions/local/lib/python3.10/dist-packages/part5_actions_modules/__init__.py
+[15.033s] -- Up-to-date symlink: /home/student/ros2_ws/install/part5_actions/local/lib/python3.10/dist-packages/part5_actions_modules/tb3_tools.py
+[15.033s] -- Up-to-date symlink: /home/student/ros2_ws/install/part5_actions/lib/part5_actions/camera_sweep_action_client.py
+[15.033s] [31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:204 (message):
+[15.033s]   ament_cmake_symlink_install_programs() can't find
+[15.033s]   '/home/student/ros2_ws/src/part5_actions/scripts/camera_sweep_cancel_action_client.py'
+[15.034s] Call Stack (most recent call first):
+[15.034s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:329 (ament_cmake_symlink_install_programs)
+[15.034s]   cmake_install.cmake:46 (include)
+[15.034s] 
+[15.034s] [0m
+[15.035s] Invoked command in '/home/student/ros2_ws/build/part5_actions' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/part5_actions

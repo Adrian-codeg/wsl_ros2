@@ -1,0 +1,42 @@
+[0.033s] Invoking command in '/home/student/ros2_ws/build/part5_actions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/part5_actions -- -j16 -l16
+[0.132s] [100%] Built target cpp_executable
+[0.190s] [100%] Built target ament_cmake_python_symlink_part5_actions_modules
+[0.642s] running egg_info
+[0.647s] writing part5_actions_modules.egg-info/PKG-INFO
+[0.648s] writing dependency_links to part5_actions_modules.egg-info/dependency_links.txt
+[0.648s] writing top-level names to part5_actions_modules.egg-info/top_level.txt
+[0.650s] reading manifest file 'part5_actions_modules.egg-info/SOURCES.txt'
+[0.651s] writing manifest file 'part5_actions_modules.egg-info/SOURCES.txt'
+[0.741s] [100%] Built target ament_cmake_python_build_part5_actions_modules_egg
+[0.778s] Invoked command in '/home/student/ros2_ws/build/part5_actions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/part5_actions -- -j16 -l16
+[0.794s] Invoking command in '/home/student/ros2_ws/build/part5_actions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/part5_actions
+[0.818s] -- Install configuration: ""
+[0.819s] -- Execute custom install script
+[0.819s] -- Up-to-date symlink: /home/student/ros2_ws/install/part5_actions/lib/part5_actions/cpp_executable
+[0.819s] -- Up-to-date symlink: /home/student/ros2_ws/install/part5_actions/share/part5_actions/environment/pythonpath.sh
+[0.820s] -- Up-to-date symlink: /home/student/ros2_ws/install/part5_actions/share/part5_actions/environment/pythonpath.dsv
+[0.831s] -- Up-to-date symlink: /home/student/ros2_ws/install/part5_actions/local/lib/python3.10/dist-packages/part5_actions_modules-0.0.0-py3.10.egg-info/PKG-INFO
+[0.831s] -- Up-to-date symlink: /home/student/ros2_ws/install/part5_actions/local/lib/python3.10/dist-packages/part5_actions_modules-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.831s] -- Up-to-date symlink: /home/student/ros2_ws/install/part5_actions/local/lib/python3.10/dist-packages/part5_actions_modules-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.831s] -- Up-to-date symlink: /home/student/ros2_ws/install/part5_actions/local/lib/python3.10/dist-packages/part5_actions_modules-0.0.0-py3.10.egg-info/top_level.txt
+[0.831s] -- Up-to-date symlink: /home/student/ros2_ws/install/part5_actions/local/lib/python3.10/dist-packages/part5_actions_modules/__init__.py
+[0.831s] -- Up-to-date symlink: /home/student/ros2_ws/install/part5_actions/local/lib/python3.10/dist-packages/part5_actions_modules/tb3_tools.py
+[0.832s] -- Up-to-date symlink: /home/student/ros2_ws/install/part5_actions/lib/part5_actions/camera_sweep_action_client.py
+[0.832s] -- Up-to-date symlink: /home/student/ros2_ws/install/part5_actions/lib/part5_actions/camera_sweep_cancel_client.py
+[0.832s] -- Up-to-date symlink: /home/student/ros2_ws/install/part5_actions/share/ament_index/resource_index/package_run_dependencies/part5_actions
+[0.832s] -- Up-to-date symlink: /home/student/ros2_ws/install/part5_actions/share/ament_index/resource_index/parent_prefix_path/part5_actions
+[0.832s] -- Up-to-date symlink: /home/student/ros2_ws/install/part5_actions/share/part5_actions/environment/ament_prefix_path.sh
+[0.832s] -- Up-to-date symlink: /home/student/ros2_ws/install/part5_actions/share/part5_actions/environment/ament_prefix_path.dsv
+[0.832s] -- Up-to-date symlink: /home/student/ros2_ws/install/part5_actions/share/part5_actions/environment/path.sh
+[0.832s] -- Up-to-date symlink: /home/student/ros2_ws/install/part5_actions/share/part5_actions/environment/path.dsv
+[0.832s] -- Up-to-date symlink: /home/student/ros2_ws/install/part5_actions/share/part5_actions/local_setup.bash
+[0.832s] -- Up-to-date symlink: /home/student/ros2_ws/install/part5_actions/share/part5_actions/local_setup.sh
+[0.832s] -- Up-to-date symlink: /home/student/ros2_ws/install/part5_actions/share/part5_actions/local_setup.zsh
+[0.832s] -- Up-to-date symlink: /home/student/ros2_ws/install/part5_actions/share/part5_actions/local_setup.dsv
+[0.832s] -- Symlinking: /home/student/ros2_ws/install/part5_actions/share/part5_actions/package.dsv
+[0.852s] -- Up-to-date symlink: /home/student/ros2_ws/install/part5_actions/share/ament_index/resource_index/packages/part5_actions
+[0.853s] -- Up-to-date symlink: /home/student/ros2_ws/install/part5_actions/share/part5_actions/cmake/part5_actionsConfig.cmake
+[0.853s] -- Up-to-date symlink: /home/student/ros2_ws/install/part5_actions/share/part5_actions/cmake/part5_actionsConfig-version.cmake
+[0.853s] -- Up-to-date symlink: /home/student/ros2_ws/install/part5_actions/share/part5_actions/package.xml
+[0.904s] Listing '/home/student/ros2_ws/install/part5_actions/local/lib/python3.10/dist-packages/part5_actions_modules'...
+[0.925s] Invoked command in '/home/student/ros2_ws/build/part5_actions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/part5_actions

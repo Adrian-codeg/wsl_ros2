@@ -1,0 +1,42 @@
+[0.018s] Invoking command in '/home/student/ros2_ws/build/part1_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/part1_pubsub -- -j16 -l16
+[0.097s] [35m[1mConsolidate compiler generated dependencies of target cpp_executable[0m
+[0.111s] [  0%] Built target ament_cmake_python_symlink_part1_pubsub_modules
+[0.116s] [100%] Built target cpp_executable
+[0.257s] running egg_info
+[0.258s] writing part1_pubsub_modules.egg-info/PKG-INFO
+[0.258s] writing dependency_links to part1_pubsub_modules.egg-info/dependency_links.txt
+[0.258s] writing top-level names to part1_pubsub_modules.egg-info/top_level.txt
+[0.260s] reading manifest file 'part1_pubsub_modules.egg-info/SOURCES.txt'
+[0.260s] writing manifest file 'part1_pubsub_modules.egg-info/SOURCES.txt'
+[0.279s] [100%] Built target ament_cmake_python_build_part1_pubsub_modules_egg
+[0.287s] Invoked command in '/home/student/ros2_ws/build/part1_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/part1_pubsub -- -j16 -l16
+[0.295s] Invoking command in '/home/student/ros2_ws/build/part1_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/part1_pubsub
+[0.302s] -- Install configuration: ""
+[0.304s] -- Execute custom install script
+[0.304s] -- Up-to-date symlink: /home/student/ros2_ws/install/part1_pubsub/lib/part1_pubsub/cpp_executable
+[0.304s] -- Up-to-date symlink: /home/student/ros2_ws/install/part1_pubsub/share/part1_pubsub/environment/pythonpath.sh
+[0.305s] -- Up-to-date symlink: /home/student/ros2_ws/install/part1_pubsub/share/part1_pubsub/environment/pythonpath.dsv
+[0.305s] -- Up-to-date symlink: /home/student/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages/part1_pubsub_modules-0.0.0-py3.10.egg-info/PKG-INFO
+[0.306s] -- Up-to-date symlink: /home/student/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages/part1_pubsub_modules-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.306s] -- Up-to-date symlink: /home/student/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages/part1_pubsub_modules-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.307s] -- Up-to-date symlink: /home/student/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages/part1_pubsub_modules-0.0.0-py3.10.egg-info/top_level.txt
+[0.307s] -- Up-to-date symlink: /home/student/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages/part1_pubsub_modules/__init__.py
+[0.307s] -- Up-to-date symlink: /home/student/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages/part1_pubsub_modules/tb3_tools.py
+[0.308s] -- Up-to-date symlink: /home/student/ros2_ws/install/part1_pubsub/lib/part1_pubsub/minimal_node.py
+[0.308s] -- Up-to-date symlink: /home/student/ros2_ws/install/part1_pubsub/share/ament_index/resource_index/package_run_dependencies/part1_pubsub
+[0.308s] -- Up-to-date symlink: /home/student/ros2_ws/install/part1_pubsub/share/ament_index/resource_index/parent_prefix_path/part1_pubsub
+[0.309s] -- Up-to-date symlink: /home/student/ros2_ws/install/part1_pubsub/share/part1_pubsub/environment/ament_prefix_path.sh
+[0.309s] -- Up-to-date symlink: /home/student/ros2_ws/install/part1_pubsub/share/part1_pubsub/environment/ament_prefix_path.dsv
+[0.309s] -- Up-to-date symlink: /home/student/ros2_ws/install/part1_pubsub/share/part1_pubsub/environment/path.sh
+[0.310s] -- Up-to-date symlink: /home/student/ros2_ws/install/part1_pubsub/share/part1_pubsub/environment/path.dsv
+[0.310s] -- Up-to-date symlink: /home/student/ros2_ws/install/part1_pubsub/share/part1_pubsub/local_setup.bash
+[0.310s] -- Up-to-date symlink: /home/student/ros2_ws/install/part1_pubsub/share/part1_pubsub/local_setup.sh
+[0.311s] -- Up-to-date symlink: /home/student/ros2_ws/install/part1_pubsub/share/part1_pubsub/local_setup.zsh
+[0.311s] -- Up-to-date symlink: /home/student/ros2_ws/install/part1_pubsub/share/part1_pubsub/local_setup.dsv
+[0.311s] -- Symlinking: /home/student/ros2_ws/install/part1_pubsub/share/part1_pubsub/package.dsv
+[0.319s] -- Up-to-date symlink: /home/student/ros2_ws/install/part1_pubsub/share/ament_index/resource_index/packages/part1_pubsub
+[0.319s] -- Up-to-date symlink: /home/student/ros2_ws/install/part1_pubsub/share/part1_pubsub/cmake/part1_pubsubConfig.cmake
+[0.319s] -- Up-to-date symlink: /home/student/ros2_ws/install/part1_pubsub/share/part1_pubsub/cmake/part1_pubsubConfig-version.cmake
+[0.320s] -- Up-to-date symlink: /home/student/ros2_ws/install/part1_pubsub/share/part1_pubsub/package.xml
+[0.343s] Listing '/home/student/ros2_ws/install/part1_pubsub/local/lib/python3.10/dist-packages/part1_pubsub_modules'...
+[0.347s] Invoked command in '/home/student/ros2_ws/build/part1_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/part1_pubsub

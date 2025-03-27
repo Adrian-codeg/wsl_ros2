@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/student/ros2_ws/build/part5_actions/rosidl_generator_py/part5_actions/part5_actions_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" "TARGETS" "part5_actions__rosidl_typesupport_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/part5_actions")

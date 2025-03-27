@@ -1,0 +1,49 @@
+[0.565s] Invoking command in '/home/student/ros2_ws/build/com2009_simulations': CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/tuos_simulations:/home/student/ros2_ws/install/tuos_ros:/home/student/ros2_ws/install/tuos_tb3_tools:/home/student/ros2_ws/install/com2009_simulations:/home/student/ros2_ws/install/tuos_interfaces:/home/student/ros2_ws/install/tuos_examples:/home/student/ros2_ws/install/part2_navigation:/home/student/ros2_ws/install/part1_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/com2009_simulations -- -j16 -l16
+[0.877s] Invoked command in '/home/student/ros2_ws/build/com2009_simulations' returned '0': CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/tuos_simulations:/home/student/ros2_ws/install/tuos_ros:/home/student/ros2_ws/install/tuos_tb3_tools:/home/student/ros2_ws/install/com2009_simulations:/home/student/ros2_ws/install/tuos_interfaces:/home/student/ros2_ws/install/tuos_examples:/home/student/ros2_ws/install/part2_navigation:/home/student/ros2_ws/install/part1_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/com2009_simulations -- -j16 -l16
+[0.888s] Invoking command in '/home/student/ros2_ws/build/com2009_simulations': CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/tuos_simulations:/home/student/ros2_ws/install/tuos_ros:/home/student/ros2_ws/install/tuos_tb3_tools:/home/student/ros2_ws/install/com2009_simulations:/home/student/ros2_ws/install/tuos_interfaces:/home/student/ros2_ws/install/tuos_examples:/home/student/ros2_ws/install/part2_navigation:/home/student/ros2_ws/install/part1_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/com2009_simulations
+[0.952s] -- Install configuration: ""
+[0.953s] -- Up-to-date: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/launch
+[0.955s] -- Up-to-date: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/launch/task1.launch.py
+[0.955s] -- Up-to-date: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/launch/task2.launch.py
+[0.956s] -- Up-to-date: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/models
+[0.965s] -- Up-to-date: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/models/task1
+[0.966s] -- Up-to-date: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/models/task1/model.config
+[0.966s] -- Up-to-date: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/models/task1/materials
+[0.967s] -- Up-to-date: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/models/task1/materials/scripts
+[0.967s] -- Up-to-date: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/models/task1/materials/scripts/floor.material
+[0.967s] -- Up-to-date: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/models/task1/materials/textures
+[0.968s] -- Up-to-date: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/models/task1/materials/textures/task1_floor.svg
+[0.968s] -- Up-to-date: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/models/task1/materials/textures/task1_floor.png
+[0.968s] -- Up-to-date: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/models/task1/model.sdf
+[0.969s] -- Up-to-date: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/models/task2
+[0.969s] -- Up-to-date: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/models/task2/model.config
+[0.969s] -- Up-to-date: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/models/task2/materials
+[0.970s] -- Up-to-date: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/models/task2/materials/scripts
+[0.970s] -- Up-to-date: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/models/task2/materials/scripts/floor.material
+[0.970s] -- Up-to-date: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/models/task2/materials/textures
+[0.971s] -- Up-to-date: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/models/task2/materials/textures/task2_floor.png
+[0.976s] -- Up-to-date: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/models/task2/materials/textures/task2_floor.svg
+[0.979s] -- Up-to-date: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/models/task2/model.sdf
+[0.980s] -- Up-to-date: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/models/cr5_arena_walls
+[0.980s] -- Up-to-date: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/models/cr5_arena_walls/model.config
+[0.981s] -- Up-to-date: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/models/cr5_arena_walls/model.sdf
+[0.981s] -- Up-to-date: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/worlds
+[0.981s] -- Up-to-date: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/worlds/task2.world
+[0.982s] -- Up-to-date: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/worlds/task1.world
+[0.984s] -- Up-to-date: /home/student/ros2_ws/install/com2009_simulations/share/ament_index/resource_index/package_run_dependencies/com2009_simulations
+[0.985s] -- Up-to-date: /home/student/ros2_ws/install/com2009_simulations/share/ament_index/resource_index/parent_prefix_path/com2009_simulations
+[0.985s] -- Up-to-date: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/environment/ament_prefix_path.sh
+[0.985s] -- Up-to-date: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/environment/ament_prefix_path.dsv
+[0.985s] -- Up-to-date: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/environment/path.sh
+[0.986s] -- Up-to-date: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/environment/path.dsv
+[0.986s] -- Up-to-date: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/local_setup.bash
+[0.987s] -- Up-to-date: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/local_setup.sh
+[0.988s] -- Up-to-date: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/local_setup.zsh
+[0.988s] -- Up-to-date: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/local_setup.dsv
+[0.989s] -- Installing: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/package.dsv
+[0.989s] -- Up-to-date: /home/student/ros2_ws/install/com2009_simulations/share/ament_index/resource_index/packages/com2009_simulations
+[1.017s] -- Up-to-date: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.021s] -- Up-to-date: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/cmake/com2009_simulationsConfig.cmake
+[1.021s] -- Up-to-date: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/cmake/com2009_simulationsConfig-version.cmake
+[1.033s] -- Up-to-date: /home/student/ros2_ws/install/com2009_simulations/share/com2009_simulations/package.xml
+[1.068s] Invoked command in '/home/student/ros2_ws/build/com2009_simulations' returned '0': CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/tuos_simulations:/home/student/ros2_ws/install/tuos_ros:/home/student/ros2_ws/install/tuos_tb3_tools:/home/student/ros2_ws/install/com2009_simulations:/home/student/ros2_ws/install/tuos_interfaces:/home/student/ros2_ws/install/tuos_examples:/home/student/ros2_ws/install/part2_navigation:/home/student/ros2_ws/install/part1_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/com2009_simulations

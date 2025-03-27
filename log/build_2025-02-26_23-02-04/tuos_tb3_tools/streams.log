@@ -1,0 +1,30 @@
+[0.216s] Invoking command in '/home/student/ros2_ws/build/tuos_tb3_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/tuos_tb3_tools -- -j16 -l16
+[0.916s] [100%] Built target cpp_executable
+[1.085s] Invoked command in '/home/student/ros2_ws/build/tuos_tb3_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/tuos_tb3_tools -- -j16 -l16
+[1.091s] Invoking command in '/home/student/ros2_ws/build/tuos_tb3_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/tuos_tb3_tools
+[1.162s] -- Install configuration: ""
+[1.168s] -- Up-to-date: /home/student/ros2_ws/install/tuos_tb3_tools/lib/tuos_tb3_tools/cpp_executable
+[1.177s] -- Up-to-date: /home/student/ros2_ws/install/tuos_tb3_tools/lib/tuos_tb3_tools/tb3_status.py
+[1.178s] -- Up-to-date: /home/student/ros2_ws/install/tuos_tb3_tools/share/tuos_tb3_tools/launch
+[1.178s] -- Up-to-date: /home/student/ros2_ws/install/tuos_tb3_tools/share/tuos_tb3_tools/launch/ros.launch.py
+[1.178s] -- Up-to-date: /home/student/ros2_ws/install/tuos_tb3_tools/share/tuos_tb3_tools/launch/rviz.launch.py
+[1.178s] -- Up-to-date: /home/student/ros2_ws/install/tuos_tb3_tools/share/tuos_tb3_tools/launch/slam.launch.py
+[1.179s] -- Up-to-date: /home/student/ros2_ws/install/tuos_tb3_tools/share/tuos_tb3_tools/rviz
+[1.191s] -- Up-to-date: /home/student/ros2_ws/install/tuos_tb3_tools/share/tuos_tb3_tools/rviz/waffle.rviz
+[1.191s] -- Up-to-date: /home/student/ros2_ws/install/tuos_tb3_tools/share/tuos_tb3_tools/rviz/waffle_slam.rviz
+[1.192s] -- Up-to-date: /home/student/ros2_ws/install/tuos_tb3_tools/share/ament_index/resource_index/package_run_dependencies/tuos_tb3_tools
+[1.193s] -- Up-to-date: /home/student/ros2_ws/install/tuos_tb3_tools/share/ament_index/resource_index/parent_prefix_path/tuos_tb3_tools
+[1.194s] -- Up-to-date: /home/student/ros2_ws/install/tuos_tb3_tools/share/tuos_tb3_tools/environment/ament_prefix_path.sh
+[1.198s] -- Up-to-date: /home/student/ros2_ws/install/tuos_tb3_tools/share/tuos_tb3_tools/environment/ament_prefix_path.dsv
+[1.201s] -- Up-to-date: /home/student/ros2_ws/install/tuos_tb3_tools/share/tuos_tb3_tools/environment/path.sh
+[1.204s] -- Up-to-date: /home/student/ros2_ws/install/tuos_tb3_tools/share/tuos_tb3_tools/environment/path.dsv
+[1.204s] -- Up-to-date: /home/student/ros2_ws/install/tuos_tb3_tools/share/tuos_tb3_tools/local_setup.bash
+[1.204s] -- Up-to-date: /home/student/ros2_ws/install/tuos_tb3_tools/share/tuos_tb3_tools/local_setup.sh
+[1.204s] -- Up-to-date: /home/student/ros2_ws/install/tuos_tb3_tools/share/tuos_tb3_tools/local_setup.zsh
+[1.205s] -- Up-to-date: /home/student/ros2_ws/install/tuos_tb3_tools/share/tuos_tb3_tools/local_setup.dsv
+[1.205s] -- Installing: /home/student/ros2_ws/install/tuos_tb3_tools/share/tuos_tb3_tools/package.dsv
+[1.205s] -- Up-to-date: /home/student/ros2_ws/install/tuos_tb3_tools/share/ament_index/resource_index/packages/tuos_tb3_tools
+[1.205s] -- Up-to-date: /home/student/ros2_ws/install/tuos_tb3_tools/share/tuos_tb3_tools/cmake/tuos_tb3_toolsConfig.cmake
+[1.205s] -- Up-to-date: /home/student/ros2_ws/install/tuos_tb3_tools/share/tuos_tb3_tools/cmake/tuos_tb3_toolsConfig-version.cmake
+[1.205s] -- Up-to-date: /home/student/ros2_ws/install/tuos_tb3_tools/share/tuos_tb3_tools/package.xml
+[1.209s] Invoked command in '/home/student/ros2_ws/build/tuos_tb3_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/tuos_tb3_tools

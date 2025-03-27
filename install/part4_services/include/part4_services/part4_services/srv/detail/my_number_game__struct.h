@@ -1,0 +1,1 @@
+/home/student/ros2_ws/build/part4_services/rosidl_generator_c/part4_services/srv/detail/my_number_game__struct.h

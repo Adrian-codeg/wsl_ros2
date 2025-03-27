@@ -1,0 +1,8 @@
+setup.py
+part4_services/__init__.py
+part4_services.egg-info/PKG-INFO
+part4_services.egg-info/SOURCES.txt
+part4_services.egg-info/dependency_links.txt
+part4_services.egg-info/top_level.txt
+part4_services/srv/__init__.py
+part4_services/srv/_my_number_game.py
