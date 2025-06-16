@@ -15,6 +15,10 @@ find_package(ament_cmake REQUIRED)
 find_package(ament_cmake_python REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(rclpy REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+rosidl_generate_interfaces(${PROJECT_NAME}
+  "action/ExploreForward.action" 
+)
 
 # Include Cpp "include" directory
 include_directories(include)
@@ -34,13 +38,14 @@ ament_python_install_package(${PROJECT_NAME}_modules)
 
 # Install Python executables
 install(PROGRAMS
-  scripts/minimal_node.py
-  DESTINATION lib/${PROJECT_NAME}
-)
-
-install(DIRECTORY
+  
+  
+  scripts/explore_client.py
+  scripts/explore_server.py
+  scripts/map_saver_client.py
+  scripts/explore.py
   launch
-  DESTINATION share/${PROJECT_NAME}
+  DESTINATION lib/${PROJECT_NAME}
 )
 
 ament_package()
