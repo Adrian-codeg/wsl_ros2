@@ -11,4 +11,5 @@ The robot must finish the map in 90 seconds. This means it must move quickly and
 When the time is up, the robot will send the map to a folder or directory, either using a wireless
 
 https://youtu.be/W734r6vVdP0
-![Uploading Screenshot 2025-06-16 170644.png…]()
+
+![Screenshot 2025-06-16 170644](https://github.com/user-attachments/assets/2db1042b-4170-4c09-80c3-fd0c7ac86b11)
